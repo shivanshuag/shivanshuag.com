@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import { SITE_DESCRIPTION } from '../consts';
+
+// Most recent posts (excluding drafts), newest first.
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+---
+
+<BaseLayout>
+  <section class="intro">
+    <h1>Hi, I'm Shivanshu 👋</h1>
+    <p>{SITE_DESCRIPTION}</p>
+  </section>
+
+  <section>
+    <h2>Latest posts</h2>
+    {
+      posts.length === 0 ? (
+        <p>No posts yet — check back soon.</p>
+      ) : (
+        <ul class="post-list">
+          {posts.map((post) => (
+            <li>
+              <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+              <div class="meta">
+                <FormattedDate date={post.data.pubDate} />
+              </div>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+    <p><a href="/blog">View all posts &rarr;</a></p>
+  </section>
+</BaseLayout>
+
+<style>
+  .intro {
+    margin-bottom: 3rem;
+  }
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+  }
+  .post-list li {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .post-list a {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .post-list .meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+  }
+</style>
