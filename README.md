@@ -19,7 +19,9 @@ My personal blog, built with [Astro](https://astro.build) and deployed on
 - 🎨 **Syntax highlighting** with dual light/dark code themes (Shiki)
 - 📰 **RSS feed** at `/rss.xml` and an automatic sitemap
 - ♿ **Accessibility** — skip link, focus styles, semantic markup
-- 🔍 **SEO / Open Graph** tags out of the box
+- 🔍 **SEO** — canonical URLs, branded titles, Open Graph + Twitter cards,
+  `article:*` metadata on posts, `BlogPosting`/`WebSite` **JSON-LD** structured
+  data, a default social image, sitemap and `robots.txt`
 
 ## Local development
 
@@ -79,6 +81,17 @@ Cloudflare Pages Git integration:
    - **Build output directory:** `dist`
 4. Deploy. Every push to the default branch triggers a new production build,
    and pull requests get preview deployments automatically.
+
+### Social share image
+
+The default Open Graph image lives at `public/og-default.png`. To regenerate it
+after changing the site name or tagline, edit and run:
+
+```sh
+node scripts/generate-og.mjs
+```
+
+Individual posts can override it by setting `heroImage` in their frontmatter.
 
 ### Custom domain
 
