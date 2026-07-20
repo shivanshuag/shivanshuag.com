@@ -1,12 +1,35 @@
 ---
-import type { CollectionEntry } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+interface PostLink {
+  id: string;
+  title: string;
+}
 
-const { title, description, pubDate, updatedDate, heroImage, tags } =
-  Astro.props;
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  heroImage?: string;
+  tags: string[];
+  minutesRead?: string;
+  prev?: PostLink;
+  next?: PostLink;
+}
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  tags,
+  minutesRead,
+  prev,
+  next,
+} = Astro.props;
 ---
 
 <BaseLayout title={title} description={description} image={heroImage}>
@@ -15,6 +38,8 @@ const { title, description, pubDate, updatedDate, heroImage, tags } =
       <h1>{title}</h1>
       <div class="meta">
         <FormattedDate date={pubDate} />
+        {minutesRead && <span class="dot">·</span>}
+        {minutesRead && <span>{minutesRead}</span>}
         {
           updatedDate && (
             <span class="updated">
@@ -27,7 +52,9 @@ const { title, description, pubDate, updatedDate, heroImage, tags } =
         tags.length > 0 && (
           <ul class="tags">
             {tags.map((tag) => (
-              <li>#{tag}</li>
+              <li>
+                <a href={`/tags/${tag}/`}>#{tag}</a>
+              </li>
             ))}
           </ul>
         )
@@ -38,7 +65,31 @@ const { title, description, pubDate, updatedDate, heroImage, tags } =
       <slot />
     </div>
   </article>
-  <p class="back"><a href="/blog">&larr; Back to all posts</a></p>
+
+  {
+    (prev || next) && (
+      <nav class="post-nav" aria-label="More posts">
+        {next ? (
+          <a href={`/blog/${next.id}/`} class="nav-item prev">
+            <span class="label">← Newer</span>
+            <span class="title">{next.title}</span>
+          </a>
+        ) : (
+          <span />
+        )}
+        {prev ? (
+          <a href={`/blog/${prev.id}/`} class="nav-item next">
+            <span class="label">Older →</span>
+            <span class="title">{prev.title}</span>
+          </a>
+        ) : (
+          <span />
+        )}
+      </nav>
+    )
+  }
+
+  <p class="back"><a href="/blog">← Back to all posts</a></p>
 </BaseLayout>
 
 <style>
@@ -47,13 +98,17 @@ const { title, description, pubDate, updatedDate, heroImage, tags } =
   }
   .post-header h1 {
     margin-bottom: 0.5rem;
+    margin-top: 0;
   }
   .meta {
     color: var(--text-muted);
     font-size: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
   }
   .updated {
-    margin-left: 0.4rem;
     font-style: italic;
   }
   .tags {
@@ -62,15 +117,69 @@ const { title, description, pubDate, updatedDate, heroImage, tags } =
     gap: 0.5rem;
     list-style: none;
     padding: 0;
-    margin: 0.75rem 0 0;
-    color: var(--text-muted);
+    margin: 0.85rem 0 0;
     font-size: 0.85rem;
+  }
+  .tags a {
+    color: var(--text-muted);
+    background: var(--bg-subtle);
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+  }
+  .tags a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    text-decoration: none;
   }
   .hero {
     width: 100%;
     margin-bottom: 2rem;
   }
+
+  .post-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+  }
+  .nav-item:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    text-decoration: none;
+  }
+  .nav-item.next {
+    text-align: right;
+  }
+  .nav-item .label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  .nav-item .title {
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
   .back {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
+  }
+
+  @media (max-width: 520px) {
+    .post-nav {
+      grid-template-columns: 1fr;
+    }
+    .nav-item.next {
+      text-align: left;
+    }
   }
 </style>

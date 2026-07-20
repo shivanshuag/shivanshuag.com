@@ -3,19 +3,41 @@ import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
-  return posts.map((post) => ({
+  // Sorted newest-first so we can wire up prev/older and next/newer links.
+  const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+
+  return posts.map((post, index) => ({
     params: { slug: post.id },
-    props: post,
+    props: {
+      post,
+      // In a newest-first list, the "next newer" post is the previous index
+      // and the "older" post is the next index.
+      newer: posts[index - 1] ?? null,
+      older: posts[index + 1] ?? null,
+    },
   }));
 }
 
-type Props = CollectionEntry<'blog'>;
+interface Props {
+  post: CollectionEntry<'blog'>;
+  newer: CollectionEntry<'blog'> | null;
+  older: CollectionEntry<'blog'> | null;
+}
 
-const post = Astro.props;
-const { Content } = await render(post);
+const { post, newer, older } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await render(post);
+
+const toLink = (p: CollectionEntry<'blog'> | null) =>
+  p ? { id: p.id, title: p.data.title } : undefined;
 ---
 
-<BlogPost {...post.data}>
+<BlogPost
+  {...post.data}
+  minutesRead={remarkPluginFrontmatter.minutesRead}
+  next={toLink(newer)}
+  prev={toLink(older)}
+>
   <Content />
 </BlogPost>

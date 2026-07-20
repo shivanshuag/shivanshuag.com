@@ -39,6 +39,14 @@ const { title, description, image = '/og-default.png' } = Astro.props;
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={new URL(image, Astro.url)} />
 
+<!-- Preload fonts / theme: apply the saved theme before paint to avoid a flash. -->
+<script is:inline>
+  const stored = localStorage.getItem('theme');
+  if (stored === 'light' || stored === 'dark') {
+    document.documentElement.dataset.theme = stored;
+  }
+</script>
+
 <!-- RSS autodiscovery -->
 <link
   rel="alternate"

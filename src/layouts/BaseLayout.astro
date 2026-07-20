@@ -23,8 +23,9 @@ const {
     <BaseHead title={title} description={description} image={image} />
   </head>
   <body>
+    <a href="#main" class="skip-link">Skip to content</a>
     <Header />
-    <main>
+    <main id="main">
       <slot />
     </main>
     <Footer />

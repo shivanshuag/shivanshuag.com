@@ -10,6 +10,17 @@ My personal blog, built with [Astro](https://astro.build) and deployed on
 - **RSS + sitemap** — via `@astrojs/rss` and `@astrojs/sitemap`
 - **Cloudflare Pages** — hosting & CI/CD
 
+## Features
+
+- 🌗 **Light/dark theme toggle** with system default and no flash on load
+- 🏷️ **Tags** — clickable tags, a `/tags` index, and per-tag pages
+- ⏱️ **Reading time** on each post (via a small remark plugin)
+- ↔️ **Prev/next navigation** between posts
+- 🎨 **Syntax highlighting** with dual light/dark code themes (Shiki)
+- 📰 **RSS feed** at `/rss.xml` and an automatic sitemap
+- ♿ **Accessibility** — skip link, focus styles, semantic markup
+- 🔍 **SEO / Open Graph** tags out of the box
+
 ## Local development
 
 ```sh
@@ -23,10 +34,11 @@ npm run preview  # preview the production build locally
 
 ```
 src/
-├── components/        # Reusable .astro components (header, footer, etc.)
+├── components/        # Reusable .astro components (header, footer, theme toggle)
 ├── content/blog/      # Blog posts as Markdown files
 ├── layouts/           # Page and blog-post layouts
-├── pages/             # Routes (index, about, blog, rss.xml, 404)
+├── pages/             # Routes (index, about, blog, tags, rss.xml, 404)
+├── plugins/           # remark-reading-time.mjs
 ├── styles/            # Global CSS
 ├── consts.ts          # Site title, nav links, socials — edit these
 └── content.config.ts  # Blog frontmatter schema
