@@ -10,6 +10,19 @@ My personal blog, built with [Astro](https://astro.build) and deployed on
 - **RSS + sitemap** — via `@astrojs/rss` and `@astrojs/sitemap`
 - **Cloudflare Pages** — hosting & CI/CD
 
+## Features
+
+- 🌗 **Light/dark theme toggle** with system default and no flash on load
+- 🏷️ **Tags** — clickable tags, a `/tags` index, and per-tag pages
+- ⏱️ **Reading time** on each post (via a small remark plugin)
+- ↔️ **Prev/next navigation** between posts
+- 🎨 **Syntax highlighting** with dual light/dark code themes (Shiki)
+- 📰 **RSS feed** at `/rss.xml` and an automatic sitemap
+- ♿ **Accessibility** — skip link, focus styles, semantic markup
+- 🔍 **SEO** — canonical URLs, branded titles, Open Graph + Twitter cards,
+  `article:*` metadata on posts, `BlogPosting`/`WebSite` **JSON-LD** structured
+  data, a default social image, sitemap and `robots.txt`
+
 ## Local development
 
 ```sh
@@ -23,10 +36,11 @@ npm run preview  # preview the production build locally
 
 ```
 src/
-├── components/        # Reusable .astro components (header, footer, etc.)
+├── components/        # Reusable .astro components (header, footer, theme toggle)
 ├── content/blog/      # Blog posts as Markdown files
 ├── layouts/           # Page and blog-post layouts
-├── pages/             # Routes (index, about, blog, rss.xml, 404)
+├── pages/             # Routes (index, about, blog, tags, rss.xml, 404)
+├── plugins/           # remark-reading-time.mjs
 ├── styles/            # Global CSS
 ├── consts.ts          # Site title, nav links, socials — edit these
 └── content.config.ts  # Blog frontmatter schema
@@ -67,6 +81,17 @@ Cloudflare Pages Git integration:
    - **Build output directory:** `dist`
 4. Deploy. Every push to the default branch triggers a new production build,
    and pull requests get preview deployments automatically.
+
+### Social share image
+
+The default Open Graph image lives at `public/og-default.png`. To regenerate it
+after changing the site name or tagline, edit and run:
+
+```sh
+node scripts/generate-og.mjs
+```
+
+Individual posts can override it by setting `heroImage` in their frontmatter.
 
 ### Custom domain
 

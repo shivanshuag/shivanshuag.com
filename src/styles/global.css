@@ -1,29 +1,51 @@
 :root {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: Charter, 'Iowan Old Style', 'Palatino Linotype', Palatino,
+    Georgia, serif;
   --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
     'Liberation Mono', monospace;
 
+  /* Light theme (default) */
   --bg: #ffffff;
   --bg-subtle: #f6f7f9;
+  --bg-code: #f6f8fa;
   --text: #1a1a1a;
   --text-muted: #57606a;
   --border: #e5e7eb;
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
+  --accent-soft: rgba(37, 99, 235, 0.1);
+
   --max-width: 720px;
+  --radius: 10px;
 }
 
+/* Dark theme values, shared by the auto (system) and explicit paths below. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     --bg: #0d1117;
     --bg-subtle: #161b22;
+    --bg-code: #161b22;
     --text: #e6edf3;
     --text-muted: #9198a1;
     --border: #30363d;
     --accent: #58a6ff;
     --accent-hover: #79b8ff;
+    --accent-soft: rgba(88, 166, 255, 0.12);
   }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0d1117;
+  --bg-subtle: #161b22;
+  --bg-code: #161b22;
+  --text: #e6edf3;
+  --text-muted: #9198a1;
+  --border: #30363d;
+  --accent: #58a6ff;
+  --accent-hover: #79b8ff;
+  --accent-soft: rgba(88, 166, 255, 0.12);
 }
 
 *,
@@ -37,31 +59,41 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   margin: 0;
   font-family: var(--font-sans);
   background: var(--bg);
   color: var(--text);
-  line-height: 1.65;
+  line-height: 1.7;
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 main {
   width: 100%;
   max-width: var(--max-width);
   margin-inline: auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 2.5rem 1.25rem 4rem;
   flex: 1;
 }
 
 a {
   color: var(--accent);
   text-decoration: none;
+  text-underline-offset: 2px;
 }
 
 a:hover {
@@ -69,21 +101,28 @@ a:hover {
   text-decoration: underline;
 }
 
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
 h1,
 h2,
 h3,
 h4 {
   line-height: 1.25;
-  margin: 2rem 0 1rem;
+  margin: 2.5rem 0 1rem;
   font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.15rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.55rem;
 }
 
 h3 {
@@ -97,27 +136,31 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: var(--radius);
 }
 
 code {
   font-family: var(--font-mono);
-  font-size: 0.9em;
+  font-size: 0.88em;
   background: var(--bg-subtle);
   padding: 0.15em 0.4em;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 pre {
   padding: 1rem 1.25rem;
-  border-radius: 8px;
+  border-radius: var(--radius);
   overflow-x: auto;
   border: 1px solid var(--border);
+  background: var(--bg-code);
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 pre code {
   background: none;
   padding: 0;
+  font-size: inherit;
 }
 
 blockquote {
@@ -133,6 +176,33 @@ hr {
   margin: 2.5rem 0;
 }
 
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+li {
+  margin: 0.3rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: var(--bg-subtle);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -143,4 +213,42 @@ hr {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Skip-to-content link for keyboard/screen-reader users. */
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -3rem;
+  z-index: 100;
+  padding: 0.5rem 0.9rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius);
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 0.5rem;
+  text-decoration: none;
+}
+
+/* Shiki dual-theme switching: default styles use the light theme; when the
+   site is in dark mode we swap to the `--shiki-dark` custom properties. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .astro-code,
+  :root:not([data-theme='light']) .astro-code span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important;
+  }
+}
+:root[data-theme='dark'] .astro-code,
+:root[data-theme='dark'] .astro-code span {
+  color: var(--shiki-dark) !important;
+  background-color: var(--shiki-dark-bg) !important;
+  font-style: var(--shiki-dark-font-style) !important;
+  font-weight: var(--shiki-dark-font-weight) !important;
+  text-decoration: var(--shiki-dark-text-decoration) !important;
 }
