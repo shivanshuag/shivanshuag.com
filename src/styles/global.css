@@ -1,51 +1,52 @@
 :root {
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-serif: Charter, 'Iowan Old Style', 'Palatino Linotype', Palatino,
-    Georgia, serif;
+  --font-serif: 'Newsreader', Charter, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
     'Liberation Mono', monospace;
 
-  /* Light theme (default) */
-  --bg: #ffffff;
-  --bg-subtle: #f6f7f9;
-  --bg-code: #f6f8fa;
-  --text: #1a1a1a;
-  --text-muted: #57606a;
-  --border: #e5e7eb;
-  --accent: #2563eb;
-  --accent-hover: #1d4ed8;
-  --accent-soft: rgba(37, 99, 235, 0.1);
+  /* Light theme (default). Soft cream base + a deep emerald accent that keeps
+     link text accessible (AA) against the light background. */
+  --bg: #fbf9f4;
+  --bg-subtle: #f1ede3;
+  --bg-code: #f4f1ea;
+  --text: #211f1b;
+  --text-muted: #6b6459;
+  --border: #e4ddcd;
+  --accent: #047857;
+  --accent-hover: #065f46;
+  --accent-soft: rgba(4, 120, 87, 0.09);
 
   --max-width: 720px;
   --radius: 10px;
 }
 
-/* Dark theme values, shared by the auto (system) and explicit paths below. */
+/* Dark theme — near-neutral (faintly warm) base so the brighter emerald reads
+   cleanly. Shared by the auto (system) and explicit paths below. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #0d1117;
-    --bg-subtle: #161b22;
-    --bg-code: #161b22;
-    --text: #e6edf3;
-    --text-muted: #9198a1;
-    --border: #30363d;
-    --accent: #58a6ff;
-    --accent-hover: #79b8ff;
-    --accent-soft: rgba(88, 166, 255, 0.12);
+    --bg: #0e100e;
+    --bg-subtle: #181b18;
+    --bg-code: #161a17;
+    --text: #e8e4da;
+    --text-muted: #9ba398;
+    --border: #2a2f2a;
+    --accent: #34d399;
+    --accent-hover: #6ee7b7;
+    --accent-soft: rgba(52, 211, 153, 0.12);
   }
 }
 
 :root[data-theme='dark'] {
-  --bg: #0d1117;
-  --bg-subtle: #161b22;
-  --bg-code: #161b22;
-  --text: #e6edf3;
-  --text-muted: #9198a1;
-  --border: #30363d;
-  --accent: #58a6ff;
-  --accent-hover: #79b8ff;
-  --accent-soft: rgba(88, 166, 255, 0.12);
+  --bg: #0e100e;
+  --bg-subtle: #181b18;
+  --bg-code: #161a17;
+  --text: #e8e4da;
+  --text-muted: #9ba398;
+  --border: #2a2f2a;
+  --accent: #34d399;
+  --accent-hover: #6ee7b7;
+  --accent-soft: rgba(52, 211, 153, 0.12);
 }
 
 *,
@@ -67,11 +68,11 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   background: var(--bg);
   color: var(--text);
-  line-height: 1.7;
-  font-size: 18px;
+  line-height: 1.72;
+  font-size: 19px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   display: flex;
@@ -111,26 +112,27 @@ h1,
 h2,
 h3,
 h4 {
-  line-height: 1.25;
+  font-family: var(--font-serif);
+  line-height: 1.18;
   margin: 2.5rem 0 1rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
 }
 
 h1 {
-  font-size: 2.15rem;
+  font-size: 2.6rem;
 }
 
 h2 {
-  font-size: 1.55rem;
+  font-size: 1.75rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 
 p {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.3rem;
 }
 
 img {
@@ -139,9 +141,10 @@ img {
   border-radius: var(--radius);
 }
 
+/* Code stays in a mono face so it's clearly distinct from the serif prose. */
 code {
   font-family: var(--font-mono);
-  font-size: 0.88em;
+  font-size: 0.82em;
   background: var(--bg-subtle);
   padding: 0.15em 0.4em;
   border-radius: 5px;
@@ -153,7 +156,7 @@ pre {
   overflow-x: auto;
   border: 1px solid var(--border);
   background: var(--bg-code);
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   line-height: 1.6;
 }
 
@@ -166,8 +169,9 @@ pre code {
 blockquote {
   margin: 1.5rem 0;
   padding: 0.25rem 1.25rem;
-  border-left: 4px solid var(--accent);
+  border-left: 3px solid var(--accent);
   color: var(--text-muted);
+  font-style: italic;
 }
 
 hr {
@@ -201,6 +205,17 @@ td {
 
 th {
   background: var(--bg-subtle);
+}
+
+/* Editorial drop cap on the opening paragraph of a post. */
+.prose > p:first-of-type::first-letter {
+  font-family: var(--font-serif);
+  float: left;
+  font-size: 3.4rem;
+  line-height: 0.82;
+  font-weight: 700;
+  padding: 0.1rem 0.6rem 0.1rem 0;
+  color: var(--accent);
 }
 
 .sr-only {

@@ -12,6 +12,9 @@ My personal blog, built with [Astro](https://astro.build) and deployed on
 
 ## Features
 
+- 🎨 **Editorial design** — self-hosted [Newsreader](https://fonts.google.com/specimen/Newsreader)
+  serif, an emerald accent, a warm cream light theme and near-neutral dark theme,
+  and a drop cap on each post
 - 🌗 **Light/dark theme toggle** with system default and no flash on load
 - 🏷️ **Tags** — clickable tags, a `/tags` index, and per-tag pages
 - ⏱️ **Reading time** on each post (via a small remark plugin)

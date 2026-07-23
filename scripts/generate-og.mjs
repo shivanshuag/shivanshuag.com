@@ -12,13 +12,13 @@ const svg = `
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1200" height="8" fill="#2563eb"/>
-  <g font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-    <rect x="80" y="96" width="88" height="88" rx="20" fill="#2563eb"/>
-    <text x="124" y="156" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
-    <text x="80" y="360" font-size="76" font-weight="800" fill="#e6edf3">Shivanshu Agrawal</text>
-    <text x="80" y="440" font-size="38" font-weight="400" fill="#9198a1">Software · systems · things I am learning</text>
-    <text x="80" y="560" font-size="30" font-weight="500" fill="#58a6ff">shivanshuag.com</text>
+  <rect x="0" y="0" width="1200" height="8" fill="#10b981"/>
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <rect x="80" y="96" width="88" height="88" rx="20" fill="#10b981"/>
+    <text x="124" y="158" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+    <text x="80" y="362" font-size="78" font-weight="700" fill="#e8e4da">Shivanshu Agrawal</text>
+    <text x="80" y="442" font-size="38" font-weight="400" fill="#9ba398" font-style="italic">Software · systems · things I am learning</text>
+    <text x="80" y="560" font-size="30" font-weight="400" fill="#34d399">shivanshuag.com</text>
   </g>
 </svg>
 `;
