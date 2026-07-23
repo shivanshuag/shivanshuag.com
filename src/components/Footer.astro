@@ -4,6 +4,7 @@ import { AUTHOR, SOCIALS } from '../consts';
 const year = new Date().getFullYear();
 const links = [
   SOCIALS.github && { label: 'GitHub', href: SOCIALS.github },
+  SOCIALS.linkedin && { label: 'LinkedIn', href: SOCIALS.linkedin },
   SOCIALS.twitter && { label: 'Twitter', href: SOCIALS.twitter },
   SOCIALS.email && { label: 'Email', href: `mailto:${SOCIALS.email}` },
   { label: 'RSS', href: '/rss.xml' },
