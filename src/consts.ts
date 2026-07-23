@@ -14,6 +14,7 @@ export const NAV_LINKS = [
 // Optional social links shown in the footer. Leave a value empty to hide it.
 export const SOCIALS = {
   github: 'https://github.com/shivanshuag',
+  linkedin: 'https://www.linkedin.com/in/shivanshuag',
   twitter: '',
   email: 'shivanshuag@gmail.com',
 };
