@@ -1,0 +1,65 @@
+---
+import FormattedDate from './FormattedDate.astro';
+
+interface Item {
+  id: string;
+  title: string;
+  pubDate: Date;
+}
+
+interface Props {
+  posts: Item[];
+}
+
+const { posts } = Astro.props;
+---
+
+{
+  posts.length > 0 && (
+    <section class="related" aria-label="Related posts">
+      <h2>Related posts</h2>
+      <ul>
+        {posts.map((p) => (
+          <li>
+            <a href={`/blog/${p.id}/`}>{p.title}</a>
+            <div class="meta">
+              <FormattedDate date={p.pubDate} />
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .related {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .related h2 {
+    font-size: 1.3rem;
+    margin: 0 0 1rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+  a {
+    font-weight: 600;
+  }
+  .meta {
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    margin-top: 0.15rem;
+  }
+</style>
