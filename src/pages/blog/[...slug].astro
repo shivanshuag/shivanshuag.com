@@ -8,26 +8,56 @@ export async function getStaticPaths() {
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
 
-  return posts.map((post, index) => ({
-    params: { slug: post.id },
-    props: {
-      post,
-      // In a newest-first list, the "next newer" post is the previous index
-      // and the "older" post is the next index.
-      newer: posts[index - 1] ?? null,
-      older: posts[index + 1] ?? null,
-    },
-  }));
+  return posts.map((post, index) => {
+    // Related posts: those sharing the most tags, newest first as tiebreaker.
+    const related = posts
+      .filter((p) => p.id !== post.id)
+      .map((p) => ({
+        p,
+        shared: p.data.tags.filter((t) => post.data.tags.includes(t)).length,
+      }))
+      .filter((x) => x.shared > 0)
+      .sort(
+        (a, b) =>
+          b.shared - a.shared ||
+          b.p.data.pubDate.valueOf() - a.p.data.pubDate.valueOf()
+      )
+      .slice(0, 3)
+      .map((x) => ({
+        id: x.p.id,
+        title: x.p.data.title,
+        pubDate: x.p.data.pubDate,
+      }));
+
+    return {
+      params: { slug: post.id },
+      props: {
+        post,
+        // In a newest-first list, the "next newer" post is the previous index
+        // and the "older" post is the next index.
+        newer: posts[index - 1] ?? null,
+        older: posts[index + 1] ?? null,
+        related,
+      },
+    };
+  });
+}
+
+interface RelatedItem {
+  id: string;
+  title: string;
+  pubDate: Date;
 }
 
 interface Props {
   post: CollectionEntry<'blog'>;
   newer: CollectionEntry<'blog'> | null;
   older: CollectionEntry<'blog'> | null;
+  related: RelatedItem[];
 }
 
-const { post, newer, older } = Astro.props;
-const { Content, remarkPluginFrontmatter } = await render(post);
+const { post, newer, older, related } = Astro.props;
+const { Content, headings, remarkPluginFrontmatter } = await render(post);
 
 const toLink = (p: CollectionEntry<'blog'> | null) =>
   p ? { id: p.id, title: p.data.title } : undefined;
@@ -38,6 +68,8 @@ const toLink = (p: CollectionEntry<'blog'> | null) =>
   minutesRead={remarkPluginFrontmatter.minutesRead}
   next={toLink(newer)}
   prev={toLink(older)}
+  headings={headings}
+  related={related}
 >
   <Content />
 </BlogPost>

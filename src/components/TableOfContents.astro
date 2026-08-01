@@ -1,0 +1,71 @@
+---
+// Auto-generated "On this page" table of contents built from a post's h2/h3
+// headings. Renders nothing unless there are at least two headings.
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+{
+  toc.length >= 2 && (
+    <details class="toc" open>
+      <summary>On this page</summary>
+      <nav>
+        <ul>
+          {toc.map((h) => (
+            <li class:list={[`depth-${h.depth}`]}>
+              <a href={`#${h.slug}`}>{h.text}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </details>
+  )
+}
+
+<style>
+  .toc {
+    margin: 0 0 2.5rem;
+    padding: 0.9rem 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-subtle);
+    font-size: 0.95rem;
+  }
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text);
+    list-style-position: inside;
+  }
+  summary:hover {
+    color: var(--accent);
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0.25rem;
+  }
+  nav li {
+    margin: 0.35rem 0;
+  }
+  nav li.depth-3 {
+    padding-left: 1.1rem;
+    font-size: 0.9rem;
+  }
+  nav a {
+    color: var(--text-muted);
+  }
+  nav a:hover {
+    color: var(--accent);
+  }
+</style>

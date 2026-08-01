@@ -1,0 +1,101 @@
+---
+// Share and discuss links for a post. All are plain intent URLs (no backend,
+// no trackers). The copy-link button uses the clipboard API.
+interface Props {
+  url: string;
+  title: string;
+}
+
+const { url, title } = Astro.props;
+const e = encodeURIComponent;
+
+const links = [
+  { label: 'X', href: `https://twitter.com/intent/tweet?text=${e(title)}&url=${e(url)}` },
+  { label: 'Bluesky', href: `https://bsky.app/intent/compose?text=${e(`${title} ${url}`)}` },
+  { label: 'Hacker News', href: `https://news.ycombinator.com/submitlink?u=${e(url)}&t=${e(title)}` },
+  { label: 'Reddit', href: `https://www.reddit.com/submit?url=${e(url)}&title=${e(title)}` },
+];
+---
+
+<div class="share">
+  <span class="label">Share or discuss:</span>
+  <ul>
+    {
+      links.map((l) => (
+        <li>
+          <a href={l.href} target="_blank" rel="noopener noreferrer">
+            {l.label}
+          </a>
+        </li>
+      ))
+    }
+    <li>
+      <button type="button" class="copy" data-url={url}>Copy link</button>
+    </li>
+  </ul>
+</div>
+
+<style>
+  .share {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    font-size: 0.92rem;
+  }
+  .label {
+    color: var(--text-muted);
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  a,
+  .copy {
+    color: var(--accent);
+  }
+  .copy {
+    font-family: inherit;
+    font-size: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .copy:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+  }
+  .copy.copied {
+    color: var(--text-muted);
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    const btn = document.querySelector('.share .copy');
+    if (!btn) return;
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(btn.getAttribute('data-url'));
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = original;
+          btn.classList.remove('copied');
+        }, 1500);
+      } catch (e) {
+        /* clipboard unavailable — ignore */
+      }
+    });
+  })();
+</script>
