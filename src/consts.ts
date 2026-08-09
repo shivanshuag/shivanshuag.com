@@ -1,7 +1,8 @@
 // Site-wide configuration constants. Update these to make the site your own.
 
 export const SITE_TITLE = 'Shivanshu Agrawal';
-export const SITE_DESCRIPTION = 'Writing about software, systems, and things I am learning.';
+export const SITE_DESCRIPTION =
+  'Writing about software, distributed systems, and things I am building';
 export const AUTHOR = 'Shivanshu Agrawal';
 
 export const NAV_LINKS = [
