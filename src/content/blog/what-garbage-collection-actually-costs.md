@@ -18,9 +18,7 @@ corruption. If it is reclaimed too late, we get memory leaks.
 
 ## The paradigms
 
-There are two paradigms for memory management, and the argument between them is
-one of the oldest in systems programming, mostly because neither answer is
-wrong. They just optimize for different things.
+There are two paradigms for memory management, each optimizing for different things.
 
 The first paradigm is to let the language runtime do it. A program allocates
 memory when it needs it, uses it as long as required, and eventually stops
@@ -52,7 +50,7 @@ cost, paid on every copy of a pointer you make and every time you drop one.
 
 Which one should you choose? If garbage collection was free, all of us would
 choose a runtime that manages memory on its own. But it is not free, hence we
-discuss about the performance penalty of GC and whether it matters.
+discuss the performance penalty of GC and whether it matters.
 
 ## Stack and heap
 
@@ -84,15 +82,16 @@ the references between them, and then reclaims everything the graph does not
 include. This whole process, waking up, building the graph and reclaiming what
 is left over, is one GC cycle, and building the graph is the part usually called
 marking. Building it means walking from the roots and following every reference
-it finds, and this is what determines the cost of a cycle. A GC cycle is not
-really charging you for memory used, it is charging you for objects and
-references. How much memory sits behind any one of those references never comes
-into it. Collecting a 4 GB graph of a million small objects pointing at each
-other is orders of magnitude more expensive than a single 4 GB buffer. Both
-programs are using the same amount of memory and they are asking for completely
-different amounts of work. A surprising outcome of this is that in the
-collection step, the cost is proportional to the live pointers and memory, not
-the dead pointers or garbage.
+it finds, and this is what determines the cost of a cycle.
+
+A GC cycle is not really charging you for memory used, it is charging you for
+objects and references. How much memory sits behind any one of those references
+never comes into it. Collecting a 4 GB graph of a million small objects pointing
+at each other is orders of magnitude more expensive than a single 4 GB buffer.
+Both programs are using the same amount of memory and they are asking for
+completely different amounts of work. A surprising outcome of this is that in
+the collection step, the cost is proportional to the live pointers, not the dead
+pointers or garbage.
 
 There is a second cost associated with marking. While the collector is building
 its graph, your program is still running and still changing pointers, and it
@@ -129,7 +128,10 @@ there are three things worth asking instead.
 2. How densely are those objects linked to each other?
 3. And how fast is it churning through them?
 
-The measuring happens in three phases, and they answer different questions.
+The measuring happens in three phases. The first one is triage, it only tells
+you whether any of this is worth your time. The second answers the third
+question, how fast you are churning. The third answers the first two, how much
+you are holding and how densely it is linked.
 
 The first is to measure whether the collector is a problem at all. The thing to
 look for here is CPU, what share of your processor time is going into collection
@@ -149,9 +151,9 @@ a profiler, attributed to stack traces. In most cases, you will find a handful
 of call sites responsible for most of the churn, and these are the ones to be
 optimized.
 
-Most of the time, just optimizing the hot allocation paths is enough. If you
-need to go one step further, you need to measure what you program is holding on
-to. Remember that the cost of a single GC cycle is proportional to the number of
+The third is what your program is holding on to. Most of the time, just
+optimizing the hot allocation paths is enough, and you will not need this. If
+you do need to go one step further, remember that the cost of a single GC cycle is proportional to the number of
 live references, not the dead references. An allocation profile tells you what
 you created and says nothing about what survived, so a program whose real
 problem is a large structure kept in memory will look completely unremarkable in
