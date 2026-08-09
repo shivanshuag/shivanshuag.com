@@ -65,7 +65,8 @@ A value ends up on the heap for one of two reasons. Either it needs to outlive
 the function that created it, because you returned a reference to it, or stored
 it somewhere longer-lived. Or its size is not known up front and it can grow.
 For example, a slice you keep appending to, a buffer sized from user input. Heap
-allocation is the class of memory which GC monitors and reclaims.
+allocation is the class of memory which GC monitors and reclaims, and it is what
+factors into GC costs. We will discuss this in the next section.
 
 ## The cost of collection
 
