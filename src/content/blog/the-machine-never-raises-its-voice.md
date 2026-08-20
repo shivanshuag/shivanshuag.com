@@ -39,11 +39,10 @@ I ran the experiment on 60 pairs. Every pair was judged in both orders to remove
 | Claude Haiku 4.5 | **98%** (58 of 59) |
 | GPT-5.6 Luna | 96% (54 of 56) |
 
-Every model picked the machine-generated text more than 90% of the time. To rule out model size, I ran the same experiment on two larger models too — Claude Opus 5 and GPT-5.6 Luna Pro. The results were similar.
+Every model picked the machine-generated text more than 90% of the time. To rule out model size, I ran the same experiment on a larger model — Claude Opus 5. The results were similar.
 
 | LLM Model | Picked machine-generated text |
 |---|---|
-| GPT-5.6 Luna Pro | **98%** (56 of 57) |
 | Claude Opus | **88%** (42 of 48) |
 
 Haiku let exactly one human passage through in 120 judgments — a Shakespeare sonnet!
