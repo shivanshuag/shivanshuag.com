@@ -1,6 +1,9 @@
 ---
-// Auto-generated "On this page" table of contents built from a post's h2/h3
+// Auto-generated "On this page" table of contents built from a post's h2
 // headings. Renders nothing unless there are at least two headings.
+// Deeper headings are deliberately excluded: they are used for reference
+// material inside a section (appendix entries and the like), which floods
+// the contents list without helping anyone navigate.
 interface Heading {
   depth: number;
   slug: string;
@@ -12,7 +15,7 @@ interface Props {
 }
 
 const { headings } = Astro.props;
-const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const toc = headings.filter((h) => h.depth === 2);
 ---
 
 {

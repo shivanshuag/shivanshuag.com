@@ -1,0 +1,601 @@
+judge,pair_id,stratum,order,x_id,y_id,choice,winner_id,winner_kind,reason
+deepseek-v4-flash,0000,verse:machine_verse,ab,machine_verse-05,verse-06,X,machine_verse-05,machine,"The passage achieves more through precise, resonant imagery and emotional restraint, while Y relies on conventional pastoral sentiment."
+gpt-5.6-luna,0000,verse:machine_verse,ab,machine_verse-05,verse-06,X,machine_verse-05,machine,"Its precise domestic details and restrained grief create a more vivid, emotionally resonant portrait of absence."
+gpt-5.6-luna-pro,0000,verse:machine_verse,ab,machine_verse-05,verse-06,X,machine_verse-05,machine,Its precise domestic images and restrained grief create a more coherent and emotionally resonant whole.
+haiku-4.5,0000,verse:machine_verse,ab,machine_verse-05,verse-06,X,machine_verse-05,machine,The contemporary poem's tender domesticity and precise imagery are more moving than the dated Victorian verse's archaic conventions.
+opus,0000,verse:machine_verse,ab,machine_verse-05,verse-06,X,machine_verse-05,machine,"X earns its ending with domestic evidence and a hard, unsentimental last line; Y is a pleasant but slight devotional stanza."
+deepseek-v4-flash,0000,verse:machine_verse,ba,verse-06,machine_verse-05,Y,machine_verse-05,machine,Y captures a more subtle and original emotional intimacy through concrete domestic details.
+gpt-5.6-luna,0000,verse:machine_verse,ba,verse-06,machine_verse-05,Y,machine_verse-05,machine,"Its precise domestic details and restrained longing create a more affecting, original emotional resonance."
+gpt-5.6-luna-pro,0000,verse:machine_verse,ba,verse-06,machine_verse-05,Y,machine_verse-05,machine,Its precise domestic details and restrained tenderness create a more emotionally resonant portrait of absence.
+haiku-4.5,0000,verse:machine_verse,ba,verse-06,machine_verse-05,Y,machine_verse-05,machine,precise documentation of small domestic evidence of love surpasses conventional religious allegory.
+opus,0000,verse:machine_verse,ba,verse-06,machine_verse-05,X,verse-06,human,"Blake-like lyric compresses pastoral, sacrifice, and radiance into unforgettable music; Y is well-made but more conventional."
+deepseek-v4-flash,0001,verse:machine_verse,ab,machine_verse-03,verse-05,X,machine_verse-03,machine,"The second passage relies on conventional poetic lament, while the first achieves fresh, visceral imagery and a more profound perspective on war's futility."
+gpt-5.6-luna,0001,verse:machine_verse,ab,machine_verse-03,verse-05,Y,verse-05,human,"Its intricate rhythm, sound, and emotional compression create a more richly accomplished meditation on memory and loss."
+gpt-5.6-luna-pro,0001,verse:machine_verse,ab,machine_verse-03,verse-05,Y,verse-05,human,"Its intricate rhythm, formal control, and layered meditation on memory and loss give it greater literary richness."
+haiku-4.5,0001,verse:machine_verse,ab,machine_verse-03,verse-05,Y,verse-05,human,Shakespeare's perfectly formed sonnet on grief is more masterfully executed than the contemporary war poem.
+opus,0001,verse:machine_verse,ab,machine_verse-03,verse-05,Y,verse-05,human,Shakespeare's sonnet sustains sound and syntax at a level the competent modern war poem does not.
+deepseek-v4-flash,0001,verse:machine_verse,ba,verse-05,machine_verse-03,X,verse-05,human,Shakespeare's sonnet achieves timeless emotional resonance through masterful formal control and universal themes.
+gpt-5.6-luna,0001,verse:machine_verse,ba,verse-05,machine_verse-03,X,verse-05,human,"Its intricate rhythm, emotional depth, and densely resonant imagery make it the stronger piece."
+gpt-5.6-luna-pro,0001,verse:machine_verse,ba,verse-05,machine_verse-03,X,verse-05,human,"Its rich musical language and layered meditation on memory, grief, and time give it greater poetic depth."
+haiku-4.5,0001,verse:machine_verse,ba,verse-05,machine_verse-03,X,verse-05,human,Shakespeare's formal mastery and emotional depth far exceeds contemporary war verse.
+opus,0001,verse:machine_verse,ba,verse-05,machine_verse-03,X,verse-05,human,Sustained legal-financial metaphor for grief with perfect sonnet control beats Y's looser irony.
+deepseek-v4-flash,0002,verse:machine_verse,ab,machine_verse-00,verse-04,X,machine_verse-00,machine,"The passage achieves a more intimate, resonant emotional depth through precise, distilled imagery and a quiet, personal tone."
+gpt-5.6-luna,0002,verse:machine_verse,ab,machine_verse-00,verse-04,Y,verse-04,human,"Its intricate syntax, rhythmic authority, and monumental imagery create a more powerful and fully realized passage."
+gpt-5.6-luna-pro,0002,verse:machine_verse,ab,machine_verse-00,verse-04,Y,verse-04,human,"Its richly textured language, intricate syntax, and monumental imagery create a more powerful and cohesive poetic effect."
+haiku-4.5,0002,verse:machine_verse,ab,machine_verse-00,verse-04,X,machine_verse-00,machine,The contemporary elegy's emotional complexity and complete form eclipse the archaic excerpt.
+opus,0002,verse:machine_verse,ab,machine_verse-00,verse-04,X,machine_verse-00,machine,"X's plain, exact details land the loss; Y is decorative arboreal grandiloquence."
+deepseek-v4-flash,0002,verse:machine_verse,ba,verse-04,machine_verse-00,X,verse-04,human,"The passage from X achieves a more vivid and intricate sensory impact through its dense, musical language and concentrated imagery."
+gpt-5.6-luna,0002,verse:machine_verse,ba,verse-04,machine_verse-00,X,verse-04,human,"Its richly textured imagery and stately rhythm transform the trees into a powerful, almost mythic presence."
+gpt-5.6-luna-pro,0002,verse:machine_verse,ba,verse-04,machine_verse-00,Y,machine_verse-00,machine,"Its precise domestic details make grief feel intimate, embodied, and hauntingly durable."
+haiku-4.5,0002,verse:machine_verse,ba,verse-04,machine_verse-00,Y,machine_verse-00,machine,Modern rendering of loss through domestic detail cuts deeper than Romantic-era nature description.
+opus,0002,verse:machine_verse,ba,verse-04,machine_verse-00,X,verse-04,human,"The Borrowdale yews' 'intertwisted fibres serpentine' give sound and grandeur that Y's plainer elegy, good as it is, doesn't match."
+deepseek-v4-flash,0003,verse:machine_verse,ab,machine_verse-06,verse-02,X,machine_verse-06,machine,"X achieves a dense, lyrical meditation on time and nature with precise imagery and restraint."
+gpt-5.6-luna,0003,verse:machine_verse,ab,machine_verse-06,verse-02,X,machine_verse-06,machine,"Its precise imagery and quiet accumulation create a complete, resonant meditation on time and mortality."
+gpt-5.6-luna-pro,0003,verse:machine_verse,ab,machine_verse-06,verse-02,X,machine_verse-06,machine,"Its precise, layered imagery creates a complete and quietly resonant meditation, while Y ends mid-thought and depends more heavily on its larger context."
+haiku-4.5,0003,verse:machine_verse,ab,machine_verse-06,verse-02,X,machine_verse-06,machine,It distills time and mortality into haunting imagery without the sentimentality of the religious verse.
+opus,0003,verse:machine_verse,ab,machine_verse-06,verse-02,X,machine_verse-06,machine,X's patient images and closing turn outdo Y's abstract theological argument.
+deepseek-v4-flash,0003,verse:machine_verse,ba,verse-02,machine_verse-06,X,verse-02,human,"We need to compare two literary passages: X and Y. X is from John Milton's Paradise Lost (likely, given the style and themes of heavenly love vs hellish hate, redemption). Y is a contemporary poem (seems like it could be by someone like Wendell Berry or Mary Oliver). The question asks which is the b"
+gpt-5.6-luna,0003,verse:machine_verse,ba,verse-02,machine_verse-06,Y,machine_verse-06,machine,"Its patient, precise imagery creates a vivid meditation on time, mortality, and the natural world."
+gpt-5.6-luna-pro,0003,verse:machine_verse,ba,verse-02,machine_verse-06,Y,machine_verse-06,machine,"Its vivid, patient imagery and final transformation into weather create a more cohesive and resonant meditation on time and mortality."
+haiku-4.5,0003,verse:machine_verse,ba,verse-02,machine_verse-06,Y,machine_verse-06,machine,concrete meditation on trees becoming weather outweighs Milton's abstract heroic rhetoric.
+opus,0003,verse:machine_verse,ba,verse-02,machine_verse-06,X,verse-02,human,The chiastic play on redeem/destroy carries real theological force and grandeur of line.
+deepseek-v4-flash,0004,verse:machine_verse,ab,machine_verse-01,verse-01,X,machine_verse-01,machine,"X uses precise, resonant imagery and a subtle emotional depth that makes the ordinary moment feel profound."
+gpt-5.6-luna,0004,verse:machine_verse,ab,machine_verse-01,verse-01,X,machine_verse-01,machine,"Its restrained imagery and emotional precision create a vivid, resonant meditation on vulnerability and knowledge."
+gpt-5.6-luna-pro,0004,verse:machine_verse,ab,machine_verse-01,verse-01,X,machine_verse-01,machine,"Its precise imagery and restrained emotional insight create a more resonant, cohesive whole."
+haiku-4.5,0004,verse:machine_verse,ab,machine_verse-01,verse-01,X,machine_verse-01,machine,"the complete, precisely observed moment of a lamb surpasses the incomplete, underdeveloped goblin poem."
+opus,0004,verse:machine_verse,ab,machine_verse-01,verse-01,X,machine_verse-01,machine,"The lamb poem earns its abstractions through observation, where the goblin ballad is thin period pastiche."
+deepseek-v4-flash,0004,verse:machine_verse,ba,verse-01,machine_verse-01,Y,machine_verse-01,machine,Y uses more original and evocative imagery to explore themes of birth and innocence.
+gpt-5.6-luna,0004,verse:machine_verse,ba,verse-01,machine_verse-01,Y,machine_verse-01,machine,"Its precise, vivid imagery and quiet emotional tension make the lamb’s ordinary world feel newly mysterious."
+gpt-5.6-luna-pro,0004,verse:machine_verse,ba,verse-01,machine_verse-01,Y,machine_verse-01,machine,"Its precise, sensory imagery and understated emotional tension create a more complete and affecting scene."
+haiku-4.5,0004,verse:machine_verse,ba,verse-01,machine_verse-01,Y,machine_verse-01,machine,"The tender, precise observation of a lamb learning the world is complete and earned, where X remains only an incomplete fragment."
+opus,0004,verse:machine_verse,ba,verse-01,machine_verse-01,Y,machine_verse-01,machine,"Y's lamb is freshly seen and unsentimental; X is padded, generic fairy-verse."
+deepseek-v4-flash,0005,verse:machine_verse,ab,machine_verse-04,verse-06,X,machine_verse-04,machine,"It uses precise, haunting imagery to evoke loss and memory with profound simplicity."
+gpt-5.6-luna,0005,verse:machine_verse,ab,machine_verse-04,verse-06,X,machine_verse-04,machine,"Its precise, understated imagery creates a more resonant and emotionally coherent meditation on loss."
+gpt-5.6-luna-pro,0005,verse:machine_verse,ab,machine_verse-04,verse-06,X,machine_verse-04,machine,"Its precise, accumulating images render loss and memory with greater emotional depth and unity."
+haiku-4.5,0005,verse:machine_verse,ab,machine_verse-04,verse-06,X,machine_verse-04,machine,Its subtle exploration of forgetting and absence surpasses the sentimentality of the Romantic poem.
+opus,0005,verse:machine_verse,ab,machine_verse-04,verse-06,X,machine_verse-04,machine,"X tracks forgetting with startling precision, where Y offers conventional pastoral piety."
+deepseek-v4-flash,0005,verse:machine_verse,ba,verse-06,machine_verse-04,Y,machine_verse-04,machine,"Y uses precise, understated imagery to evoke loss and memory with greater emotional depth and originality."
+gpt-5.6-luna,0005,verse:machine_verse,ba,verse-06,machine_verse-04,Y,machine_verse-04,machine,"Its precise, haunting imagery and gradual emotional deepening create a more cohesive and resonant whole."
+gpt-5.6-luna-pro,0005,verse:machine_verse,ba,verse-06,machine_verse-04,Y,machine_verse-04,machine,"Its precise, quietly devastating imagery gives loss a vivid emotional and architectural form."
+haiku-4.5,0005,verse:machine_verse,ba,verse-06,machine_verse-04,Y,machine_verse-04,machine,contemporary meditation on time outweighs didactic religious verse.
+opus,0005,verse:machine_verse,ba,verse-06,machine_verse-04,Y,machine_verse-04,machine,Y's diction is exact and unsentimental where X leans on pious singsong and easy rhyme.
+deepseek-v4-flash,0006,verse:machine_verse,ab,machine_verse-02,verse-04,X,machine_verse-02,machine,Y is more precise and evocative in its imagery and rhythm.
+gpt-5.6-luna,0006,verse:machine_verse,ab,machine_verse-02,verse-04,X,machine_verse-02,machine,"Its compressed imagery and shifting perception create a vivid, haunting unity."
+gpt-5.6-luna-pro,0006,verse:machine_verse,ab,machine_verse-02,verse-04,X,machine_verse-02,machine,"Its compressed imagery and shifting sensory logic create a vivid, haunting sense of the sea’s instability."
+haiku-4.5,0006,verse:machine_verse,ab,machine_verse-02,verse-04,X,machine_verse-02,machine,The contemporary poem's vivid sensory power and coherence surpasses the Romantic fragment's elevation.
+opus,0006,verse:machine_verse,ab,machine_verse-02,verse-04,X,machine_verse-02,machine,X does more with less; Y's ornate diction ('inveterately convolved') clogs the description.
+deepseek-v4-flash,0006,verse:machine_verse,ba,verse-04,machine_verse-02,X,verse-04,human,"X uses more intricate and original imagery, creating a more distinctive and powerful visual impression."
+gpt-5.6-luna,0006,verse:machine_verse,ba,verse-04,machine_verse-02,Y,machine_verse-02,machine,"Its vivid, compressed imagery and unsettling metaphors create a more unified and resonant emotional atmosphere."
+gpt-5.6-luna-pro,0006,verse:machine_verse,ba,verse-04,machine_verse-02,Y,machine_verse-02,machine,"Its compressed, vivid imagery and haunting final metaphor create a more cohesive and resonant passage."
+haiku-4.5,0006,verse:machine_verse,ba,verse-04,machine_verse-02,Y,machine_verse-02,machine,"vivid, precise contemporary observation about perception and the sea beats Wordsworth's ornate formality."
+opus,0006,verse:machine_verse,ba,verse-04,machine_verse-02,X,verse-04,human,"The knotted, muscular syntax and sound-work of the yew description do more than Y's competent but familiar seaside cadences."
+deepseek-v4-flash,0007,verse:machine_verse,ab,machine_verse-05,verse-04,X,machine_verse-05,machine,"X uses precise, intimate imagery to create a poignant emotional resonance."
+gpt-5.6-luna,0007,verse:machine_verse,ab,machine_verse-05,verse-04,Y,verse-04,human,"Its intricate syntax, vivid imagery, and stately rhythm create a more resonant and distinctive poetic vision."
+gpt-5.6-luna-pro,0007,verse:machine_verse,ab,machine_verse-05,verse-04,X,machine_verse-05,machine,Its precise domestic images and quietly devastating ending create a more intimate and emotionally resonant whole.
+haiku-4.5,0007,verse:machine_verse,ab,machine_verse-05,verse-04,X,machine_verse-05,machine,"captures domestic intimacy with precise sensory detail and emotional truth that outshines the grandiose, incomplete Romantic excerpt."
+opus,0007,verse:machine_verse,ab,machine_verse-05,verse-04,Y,verse-04,human,Wordsworth's yew-grove lines have a density and strangeness of diction the pleasant but conventional domestic lyric never reaches.
+deepseek-v4-flash,0007,verse:machine_verse,ba,verse-04,machine_verse-05,X,verse-04,human,"The passage from Wordsworth achieves a more concentrated and original imaginative power through its dense, dynamic, and metaphysically charged description of the trees."
+gpt-5.6-luna,0007,verse:machine_verse,ba,verse-04,machine_verse-05,Y,machine_verse-05,machine,Its precise domestic details transform absence into a quietly moving expression of love.
+gpt-5.6-luna-pro,0007,verse:machine_verse,ba,verse-04,machine_verse-05,Y,machine_verse-05,machine,"Its intimate, precise domestic imagery turns absence into a quietly devastating emotional presence."
+haiku-4.5,0007,verse:machine_verse,ba,verse-04,machine_verse-05,Y,machine_verse-05,machine,specific domestic details create deeper emotional resonance than ornate Romantic diction.
+opus,0007,verse:machine_verse,ba,verse-04,machine_verse-05,X,verse-04,human,"The Wordsworth's knotted, muscular syntax makes the trees genuinely strange, where Y is a competent but familiar domestic lyric."
+deepseek-v4-flash,0008,verse:machine_verse,ab,machine_verse-03,verse-04,X,machine_verse-03,machine,"The first passage compresses war's futility into vivid, ironic images, while the second lumbers through ornate description without emotional weight."
+gpt-5.6-luna,0008,verse:machine_verse,ab,machine_verse-03,verse-04,X,machine_verse-03,machine,"Its compressed imagery and understated irony make the passage feel vivid, coherent, and emotionally resonant."
+gpt-5.6-luna-pro,0008,verse:machine_verse,ab,machine_verse-03,verse-04,X,machine_verse-03,machine,"Its precise, accumulating images turn martial spectacle into a quietly devastating meditation on the emptiness of victory."
+haiku-4.5,0008,verse:machine_verse,ab,machine_verse-03,verse-04,X,machine_verse-03,machine,"Its war meditation achieves dark insight through complete, contemporary verse versus an incomplete fragment."
+opus,0008,verse:machine_verse,ab,machine_verse-03,verse-04,X,machine_verse-03,machine,X's irony about victory is sharp and earned; Y is elaborate scene-setting with no pressure behind it.
+deepseek-v4-flash,0008,verse:machine_verse,ba,verse-04,machine_verse-03,X,verse-04,human,"The passage has more intricate and original syntactic compression and phantasmagoric visual force in its ""intertwisted fibres serpentine / Up-coiling, and inveterately convolved."""
+gpt-5.6-luna,0008,verse:machine_verse,ba,verse-04,machine_verse-03,Y,machine_verse-03,machine,"Its restrained, vivid imagery and understated irony give the scene greater emotional and thematic force."
+gpt-5.6-luna-pro,0008,verse:machine_verse,ba,verse-04,machine_verse-03,Y,machine_verse-03,machine,"Its stark, ironic imagery and controlled rhythm convey the absurdity and cost of victory with greater emotional force."
+haiku-4.5,0008,verse:machine_verse,ba,verse-04,machine_verse-03,Y,machine_verse-03,machine,contemporary precision and impact outweigh grandiose Romantic diction.
+opus,0008,verse:machine_verse,ba,verse-04,machine_verse-03,X,verse-04,human,Wordsworth's density and sound outclass Y's well-turned but plainer irony.
+deepseek-v4-flash,0009,verse:machine_verse,ab,machine_verse-00,verse-03,X,machine_verse-00,machine,"The poem transforms a specific, intimate loss into enduring, concrete imagery."
+gpt-5.6-luna,0009,verse:machine_verse,ab,machine_verse-00,verse-03,X,machine_verse-00,machine,Its precise domestic details and quietly devastating emotional progression feel more vivid and original
+gpt-5.6-luna-pro,0009,verse:machine_verse,ab,machine_verse-00,verse-03,X,machine_verse-00,machine,Its concrete domestic details make grief feel intimate and vividly lived rather than merely rhetorically declared.
+haiku-4.5,0009,verse:machine_verse,ab,machine_verse-00,verse-03,X,machine_verse-00,machine,"The grief poem's restraint and specificity create genuine emotional weight, while the Victorian sonnet relies on elaborate abstraction."
+opus,0009,verse:machine_verse,ab,machine_verse-00,verse-03,X,machine_verse-00,machine,"X finds an exact, unexpected register for long grief; Y is syntactically strained and incomplete."
+deepseek-v4-flash,0009,verse:machine_verse,ba,verse-03,machine_verse-00,Y,machine_verse-00,machine,"Y uses concrete, sensory details to create a more poignant and original meditation on grief."
+gpt-5.6-luna,0009,verse:machine_verse,ba,verse-03,machine_verse-00,Y,machine_verse-00,machine,"Its precise domestic details and understated grief create a more vivid, emotionally resonant portrait."
+gpt-5.6-luna-pro,0009,verse:machine_verse,ba,verse-03,machine_verse-00,Y,machine_verse-00,machine,Its precise domestic details make grief feel quietly tangible and emotionally immediate.
+haiku-4.5,0009,verse:machine_verse,ba,verse-03,machine_verse-00,Y,machine_verse-00,machine,concrete sensory memories convey grief more powerfully than abstract formal verse.
+opus,0009,verse:machine_verse,ba,verse-03,machine_verse-00,Y,machine_verse-00,machine,"Y earns its grief through concrete detail and a live turn of phrase, while X stays abstract and syntactically clotted."
+deepseek-v4-flash,0010,verse:machine_verse,ab,machine_verse-06,verse-01,X,machine_verse-06,machine,"The lines build a quiet, cumulative power through patient observation and elemental weight, where standing still long enough transforms into weather."
+gpt-5.6-luna,0010,verse:machine_verse,ab,machine_verse-06,verse-01,X,machine_verse-06,machine,Its precise imagery and quietly accumulating meditation create a more coherent and resonant whole.
+gpt-5.6-luna-pro,0010,verse:machine_verse,ab,machine_verse-06,verse-01,X,machine_verse-06,machine,"Its patient, precise imagery and compressed meditation on time create a more resonant and cohesive piece."
+haiku-4.5,0010,verse:machine_verse,ab,machine_verse-06,verse-01,X,machine_verse-06,machine,The oak poem's precise language and philosophical weight far exceed the fragmentary Gothic verse's archaic imagery.
+opus,0010,verse:machine_verse,ab,machine_verse-06,verse-01,X,machine_verse-06,machine,X sustains one idea to a real close; Y is a jingling fragment that breaks off unresolved.
+deepseek-v4-flash,0010,verse:machine_verse,ba,verse-01,machine_verse-06,Y,machine_verse-06,machine,Y's imagery and meditation on time and nature are more profound and evocative.
+gpt-5.6-luna,0010,verse:machine_verse,ba,verse-01,machine_verse-06,Y,machine_verse-06,machine,"Its patient, lucid imagery creates a more cohesive and resonant meditation on time, nature, and mortality."
+gpt-5.6-luna-pro,0010,verse:machine_verse,ba,verse-01,machine_verse-06,Y,machine_verse-06,machine,"Its measured pace, vivid imagery, and quietly profound meditation on time and mortality create a more cohesive and resonant piece."
+haiku-4.5,0010,verse:machine_verse,ba,verse-01,machine_verse-06,Y,machine_verse-06,machine,"The mature observation that time transforms identity carries more weight than the incomplete, whimsical fairy-tale fragment."
+opus,0010,verse:machine_verse,ba,verse-01,machine_verse-06,Y,machine_verse-06,machine,"Y's patient, exact observation outdoes X's jingling archaic whimsy."
+deepseek-v4-flash,0011,verse:machine_verse,ab,machine_verse-01,verse-06,X,machine_verse-01,machine,"The poem uses precise, original imagery and restraint to create a felt moment, while Y relies on conventional pastoral sentiment."
+gpt-5.6-luna,0011,verse:machine_verse,ab,machine_verse-01,verse-06,X,machine_verse-01,machine,"Its precise, restrained imagery turns the lamb’s vulnerability into a quietly profound meditation on innocence and knowledge."
+gpt-5.6-luna-pro,0011,verse:machine_verse,ab,machine_verse-01,verse-06,X,machine_verse-01,machine,Its precise imagery and quietly unsettling reflection give the scene greater emotional and linguistic depth.
+haiku-4.5,0011,verse:machine_verse,ab,machine_verse-01,verse-06,X,machine_verse-01,machine,"Its precise, fresh voice and contemporary sensibility far exceed the dated sentimental verse."
+opus,0011,verse:machine_verse,ab,machine_verse-01,verse-06,X,machine_verse-01,machine,X is observed and surprising; Y's hymn-like stanza is pious and generic out of its frame.
+deepseek-v4-flash,0011,verse:machine_verse,ba,verse-06,machine_verse-01,X,verse-06,human,The rhyme and rhythm create a more cohesive and evocative lyrical meditation.
+gpt-5.6-luna,0011,verse:machine_verse,ba,verse-06,machine_verse-01,Y,machine_verse-01,machine,"Its precise, understated images and emotional restraint give the scene greater freshness and depth."
+gpt-5.6-luna-pro,0011,verse:machine_verse,ba,verse-06,machine_verse-01,Y,machine_verse-01,machine,"Its precise, understated imagery turns the lamb’s tentative exploration into a quietly profound reflection on knowledge, fear, and care."
+haiku-4.5,0011,verse:machine_verse,ba,verse-06,machine_verse-01,Y,machine_verse-01,machine,precise contemporary observation achieves more than sentimental Victorian formality.
+opus,0011,verse:machine_verse,ba,verse-06,machine_verse-01,Y,machine_verse-01,machine,Y observes the lamb freshly and turns it without sentiment; X leans on conventional pious consolation.
+deepseek-v4-flash,0012,verse:machine_verse,ab,machine_verse-04,verse-03,X,machine_verse-04,machine,It is more evocative and original in its imagery and rhythm.
+gpt-5.6-luna,0012,verse:machine_verse,ab,machine_verse-04,verse-03,X,machine_verse-04,machine,"Its precise, haunting images and controlled progression create a more coherent and emotionally resonant whole."
+gpt-5.6-luna-pro,0012,verse:machine_verse,ab,machine_verse-04,verse-03,X,machine_verse-04,machine,"Its precise, haunting imagery and controlled progression create a more complete and emotionally resonant poem."
+haiku-4.5,0012,verse:machine_verse,ab,machine_verse-04,verse-03,X,machine_verse-04,machine,It captures memory's erosion through exact sensory details rather than ornate abstraction.
+opus,0012,verse:machine_verse,ab,machine_verse-04,verse-03,X,machine_verse-04,machine,"A complete, quietly devastating arc about losing even the wanting-back, where Y is an abstract sonnet fragment that never lands."
+deepseek-v4-flash,0012,verse:machine_verse,ba,verse-03,machine_verse-04,X,verse-03,human,The passage achieves a more concentrated and original intensity of image and emotional force within a tighter formal constraint.
+gpt-5.6-luna,0012,verse:machine_verse,ba,verse-03,machine_verse-04,Y,machine_verse-04,machine,"Its precise, quietly escalating imagery makes loss feel intimate, uncanny, and fully realized."
+gpt-5.6-luna-pro,0012,verse:machine_verse,ba,verse-03,machine_verse-04,Y,machine_verse-04,machine,"Its precise, quietly accumulating images render loss with greater emotional immediacy and control."
+haiku-4.5,0012,verse:machine_verse,ba,verse-03,machine_verse-04,Y,machine_verse-04,machine,contemporary diction and concrete memory imagery are more moving than archaic sonneteering.
+opus,0012,verse:machine_verse,ba,verse-03,machine_verse-04,Y,machine_verse-04,machine,"Y's images of forgetting are precise and cumulative; X is abstract, inverted-syntax pleading that stops mid-thought."
+deepseek-v4-flash,0013,verse:machine_verse,ab,machine_verse-02,verse-00,X,machine_verse-02,machine,"It transforms a concrete coastal scene into a profound meditation on perception, belief, and human isolation through precise, evocative imagery and sound."
+gpt-5.6-luna,0013,verse:machine_verse,ab,machine_verse-02,verse-00,X,machine_verse-02,machine,"Its precise, evocative imagery and shifting sense of reality create greater emotional and intellectual depth."
+gpt-5.6-luna-pro,0013,verse:machine_verse,ab,machine_verse-02,verse-00,X,machine_verse-02,machine,"Its vivid, original imagery and compressed rhythms create a haunting, layered meditation on perception and loss."
+haiku-4.5,0013,verse:machine_verse,ab,machine_verse-02,verse-00,X,machine_verse-02,machine,"spare, precise imagery of the sea surpasses the repetitive, less sophisticated celebratory verse."
+opus,0013,verse:machine_verse,ab,machine_verse-02,verse-00,X,machine_verse-02,machine,The night sea poem is inventive and metrically alive; Y is a repetitive chant with little to it.
+deepseek-v4-flash,0013,verse:machine_verse,ba,verse-00,machine_verse-02,Y,machine_verse-02,machine,"Y uses richer imagery and more complex, evocative language."
+gpt-5.6-luna,0013,verse:machine_verse,ba,verse-00,machine_verse-02,Y,machine_verse-02,machine,"Its precise imagery, ambiguity, and haunting compression create a more layered and resonant poetic experience."
+gpt-5.6-luna-pro,0013,verse:machine_verse,ba,verse-00,machine_verse-02,Y,machine_verse-02,machine,"Its precise imagery, rhythmic control, and unsettling ambiguity create a more layered and evocative experience."
+haiku-4.5,0013,verse:machine_verse,ba,verse-00,machine_verse-02,Y,machine_verse-02,machine,Evocative philosophical precision about the sea vastly surpasses repetitive martial celebration.
+opus,0013,verse:machine_verse,ba,verse-00,machine_verse-02,Y,machine_verse-02,machine,Y turns a becalmed shoreline into unsettling metaphysics; X is chanting doggerel.
+deepseek-v4-flash,0014,verse:machine_verse,ab,machine_verse-05,verse-02,X,machine_verse-05,machine,"It is more intimate and emotionally resonant, with precise, sensory details that create a vivid, human moment."
+gpt-5.6-luna,0014,verse:machine_verse,ab,machine_verse-05,verse-02,X,machine_verse-05,machine,"Its precise domestic details and restrained emotion create a vivid, resonant portrait of love and absence."
+gpt-5.6-luna-pro,0014,verse:machine_verse,ab,machine_verse-05,verse-02,X,machine_verse-05,machine,"Its precise domestic images and restrained emotion create a complete, quietly devastating poem."
+haiku-4.5,0014,verse:machine_verse,ab,machine_verse-05,verse-02,X,machine_verse-05,machine,Its understated tenderness and precise domestic detail create genuine intimacy.
+opus,0014,verse:machine_verse,ab,machine_verse-05,verse-02,X,machine_verse-05,machine,"X builds domestic love out of ordinary evidence and ends on a perfect small imperative; Y is doctrinal argument in verse, inert out of context."
+deepseek-v4-flash,0014,verse:machine_verse,ba,verse-02,machine_verse-05,Y,machine_verse-05,machine,"Y uses concrete, intimate details to create a deeply resonant emotional landscape."
+gpt-5.6-luna,0014,verse:machine_verse,ba,verse-02,machine_verse-05,Y,machine_verse-05,machine,Its precise domestic details turn absence into a quietly devastating portrait of enduring love.
+gpt-5.6-luna-pro,0014,verse:machine_verse,ba,verse-02,machine_verse-05,X,verse-02,human,"Its elevated music, intricate syntax, and profound theological tension give it greater literary power."
+haiku-4.5,0014,verse:machine_verse,ba,verse-02,machine_verse-05,Y,machine_verse-05,machine,Contemporary domestic imagery creates emotional immediacy that formal theological verse cannot match.
+opus,0014,verse:machine_verse,ba,verse-02,machine_verse-05,X,verse-02,human,"The chiastic repetition of love and hate carries real theological torque, where Y's domestic tenderness is graceful but familiar."
+deepseek-v4-flash,0015,verse:machine_verse,ab,machine_verse-03,verse-06,X,machine_verse-03,machine,"The war imagery in X is more visceral and original, creating a haunting, understated impact."
+gpt-5.6-luna,0015,verse:machine_verse,ab,machine_verse-03,verse-06,X,machine_verse-03,machine,"Its taut, vivid imagery and ironic ending convey the futility of war with greater originality and emotional force."
+gpt-5.6-luna-pro,0015,verse:machine_verse,ab,machine_verse-03,verse-06,X,machine_verse-03,machine,"Its stark, compressed imagery and ironic treatment of victory create a more resonant and cohesive poem."
+haiku-4.5,0015,verse:machine_verse,ab,machine_verse-03,verse-06,X,machine_verse-03,machine,The war poem's contemporary precision and anti-war sentiment carry more force than the ornate Gothic verse's archaic conventions.
+opus,0015,verse:machine_verse,ab,machine_verse-03,verse-06,X,machine_verse-03,machine,X controls its irony and rhythm; Y's hymn-like stanza is sweet but slack out of context.
+deepseek-v4-flash,0015,verse:machine_verse,ba,verse-06,machine_verse-03,Y,machine_verse-03,machine,"The passage in Y uses more original and vivid imagery, creating a powerful, understated commentary on the futility of war."
+gpt-5.6-luna,0015,verse:machine_verse,ba,verse-06,machine_verse-03,Y,machine_verse-03,machine,"Its vivid, restrained imagery and quiet irony give the scene greater emotional and thematic depth."
+gpt-5.6-luna-pro,0015,verse:machine_verse,ba,verse-06,machine_verse-03,Y,machine_verse-03,machine,"Its stark, compressed imagery and ironic cadence convey the futility of victory with greater force."
+haiku-4.5,0015,verse:machine_verse,ba,verse-06,machine_verse-03,Y,machine_verse-03,machine,"Sharp, earned imagery about war's aftermath cuts deeper than the whimsical, sing-songy pastoral tone."
+opus,0015,verse:machine_verse,ba,verse-06,machine_verse-03,X,verse-06,human,"X achieves a pure, resonant simplicity of image and music that Y's knowing irony never matches."
+deepseek-v4-flash,0016,verse:machine_verse,ab,machine_verse-00,verse-00,X,machine_verse-00,machine,"X has more emotional depth, subtle imagery, and a poignant meditation on grief."
+gpt-5.6-luna,0016,verse:machine_verse,ab,machine_verse-00,verse-00,X,machine_verse-00,machine,"Its precise domestic details and understated grief create a more nuanced, emotionally resonant portrait."
+gpt-5.6-luna-pro,0016,verse:machine_verse,ab,machine_verse-00,verse-00,X,machine_verse-00,machine,"It uses precise domestic details and restrained grief to create a more distinctive, emotionally resonant voice."
+haiku-4.5,0016,verse:machine_verse,ab,machine_verse-00,verse-00,X,machine_verse-00,machine,It uses concrete domestic detail to render grief with emotional precision and contemporary grace.
+opus,0016,verse:machine_verse,ab,machine_verse-00,verse-00,X,machine_verse-00,machine,"A controlled elegy whose concrete details earn their grief, against a repetitive martial jingle."
+deepseek-v4-flash,0016,verse:machine_verse,ba,verse-00,machine_verse-00,Y,machine_verse-00,machine,"Y uses concrete, emotional details and subtle metaphor to evoke grief, while X is repetitive and lacks depth."
+gpt-5.6-luna,0016,verse:machine_verse,ba,verse-00,machine_verse-00,Y,machine_verse-00,machine,"Its restrained grief, precise domestic details, and subtle emotional progression create a more affecting and memorable poem."
+gpt-5.6-luna-pro,0016,verse:machine_verse,ba,verse-00,machine_verse-00,Y,machine_verse-00,machine,"Its precise, restrained imagery gives grief a lasting emotional presence."
+haiku-4.5,0016,verse:machine_verse,ba,verse-00,machine_verse-00,Y,machine_verse-00,machine,intimate meditation on nine years of grief transcends the crude repetitive war chant.
+opus,0016,verse:machine_verse,ba,verse-00,machine_verse-00,Y,machine_verse-00,machine,Y earns its restraint and lands a real image; X is chanted doggerel.
+deepseek-v4-flash,0017,verse:machine_verse,ab,machine_verse-06,verse-06,X,machine_verse-06,machine,"X's imagery is more original and evocative, with a quiet depth that rewards rereading."
+gpt-5.6-luna,0017,verse:machine_verse,ab,machine_verse-06,verse-06,X,machine_verse-06,machine,"Its patient imagery and quiet compression create a more resonant meditation on time, nature, and mortality."
+gpt-5.6-luna-pro,0017,verse:machine_verse,ab,machine_verse-06,verse-06,X,machine_verse-06,machine,"Its precise imagery and measured rhythm create a haunting meditation on time, mortality, and stillness."
+haiku-4.5,0017,verse:machine_verse,ab,machine_verse-06,verse-06,X,machine_verse-06,machine,Its spare language and meditation on mortality carry more genuine weight than hymnal verse.
+opus,0017,verse:machine_verse,ab,machine_verse-06,verse-06,Y,verse-06,human,Blake's lyric carries real music and visionary strangeness; X is a competent but familiar meditative mode.
+deepseek-v4-flash,0017,verse:machine_verse,ba,verse-06,machine_verse-06,X,verse-06,human,"The second passage achieves a more profound and original meditation on time and mortality through its precise, understated imagery."
+gpt-5.6-luna,0017,verse:machine_verse,ba,verse-06,machine_verse-06,Y,machine_verse-06,machine,"Its patient, vivid imagery and final transformation create a more resonant and subtly expansive meditation on time and mortality."
+gpt-5.6-luna-pro,0017,verse:machine_verse,ba,verse-06,machine_verse-06,Y,machine_verse-06,machine,"Its measured pace, layered imagery, and haunting final transformation create a more resonant and cohesive poetic whole."
+haiku-4.5,0017,verse:machine_verse,ba,verse-06,machine_verse-06,Y,machine_verse-06,machine,"The profound meditation on time and growth in the oak poem entirely outclasses the forced, archaic pastoral."
+opus,0017,verse:machine_verse,ba,verse-06,machine_verse-06,X,verse-06,human,"X's plain, luminous cadence carries more weight than Y's polished closing epigram."
+deepseek-v4-flash,0018,verse:machine_verse,ab,machine_verse-01,verse-03,X,machine_verse-01,machine,The lamb passage achieves a richer sensory experience and more precise emotional resonance.
+gpt-5.6-luna,0018,verse:machine_verse,ab,machine_verse-01,verse-03,X,machine_verse-01,machine,"Its precise, tender imagery turns an ordinary scene into a quietly profound meditation on vulnerability and knowledge."
+gpt-5.6-luna-pro,0018,verse:machine_verse,ab,machine_verse-01,verse-03,X,machine_verse-01,machine,"Its precise, restrained imagery turns the lamb’s tentative movement into a resonant reflection on knowledge and vulnerability."
+haiku-4.5,0018,verse:machine_verse,ab,machine_verse-01,verse-03,X,machine_verse-01,machine,"Its spare, contemporary observation of animal consciousness is superior to Victorian sentimentality."
+opus,0018,verse:machine_verse,ab,machine_verse-01,verse-03,X,machine_verse-01,machine,The lamb poem is sensuously particular and lands a real turn in 'Nothing is enormous'; the sonnet is abstract self-reproach.
+deepseek-v4-flash,0018,verse:machine_verse,ba,verse-03,machine_verse-01,Y,machine_verse-01,machine,"Y uses vivid imagery and a concrete scene to explore themes of innocence and learning, making it more emotionally resonant and accessible."
+gpt-5.6-luna,0018,verse:machine_verse,ba,verse-03,machine_verse-01,Y,machine_verse-01,machine,"Its precise, tactile imagery and quiet emotional tension make the lamb’s vulnerability vividly human."
+gpt-5.6-luna-pro,0018,verse:machine_verse,ba,verse-03,machine_verse-01,Y,machine_verse-01,machine,"Its precise, quietly metaphorical observation gives the scene emotional depth without overstating it."
+haiku-4.5,0018,verse:machine_verse,ba,verse-03,machine_verse-01,Y,machine_verse-01,machine,Sensory precision and contemporary language in the lamb poem surpass abstract theological expression.
+opus,0018,verse:machine_verse,ba,verse-03,machine_verse-01,Y,machine_verse-01,machine,Y earns its feeling through observation; X is tangled abstraction with strained syntax and no image that lands.
+deepseek-v4-flash,0019,verse:machine_verse,ab,machine_verse-04,verse-04,Y,verse-04,human,"The second passage uses more concrete, original imagery and rhythmic control to achieve a more distinct and memorable effect."
+gpt-5.6-luna,0019,verse:machine_verse,ab,machine_verse-04,verse-04,X,machine_verse-04,machine,"Its precise, haunting images render loss and memory with greater emotional clarity and economy."
+gpt-5.6-luna-pro,0019,verse:machine_verse,ab,machine_verse-04,verse-04,X,machine_verse-04,machine,"Its precise, quietly devastating imagery conveys loss with greater emotional economy and coherence."
+haiku-4.5,0019,verse:machine_verse,ab,machine_verse-04,verse-04,X,machine_verse-04,machine,The precise exploration of how memory erodes through concrete detail is more powerful than Wordsworth's ornate description of natural forms.
+opus,0019,verse:machine_verse,ab,machine_verse-04,verse-04,Y,verse-04,human,Wordsworth's blank verse on the Borrowdale yews has weight and strangeness of diction that outdo X's neat conceit.
+deepseek-v4-flash,0019,verse:machine_verse,ba,verse-04,machine_verse-04,X,verse-04,human,"The passage from Wordsworth demonstrates a more intricate and sustained use of poetic imagery, rhythm, and figurative language."
+gpt-5.6-luna,0019,verse:machine_verse,ba,verse-04,machine_verse-04,Y,machine_verse-04,machine,"Its precise, accumulating images render loss as an intimate, quietly devastating force."
+gpt-5.6-luna-pro,0019,verse:machine_verse,ba,verse-04,machine_verse-04,Y,machine_verse-04,machine,"Its precise, accumulating details render loss with greater emotional subtlety and resonance."
+haiku-4.5,0019,verse:machine_verse,ba,verse-04,machine_verse-04,Y,machine_verse-04,machine,modern memory poem's emotional resonance outweighs Wordsworth's elaborate descriptive verse.
+opus,0019,verse:machine_verse,ba,verse-04,machine_verse-04,X,verse-04,human,"Wordsworth's yews have real sonic density and strangeness in the language, beyond Y's quieter competence."
+deepseek-v4-flash,0020,verse:machine_verse,ab,machine_verse-02,verse-03,X,machine_verse-02,machine,"It uses more precise, original imagery and rhythm to evoke a destabilized, meditative experience of the sea."
+gpt-5.6-luna,0020,verse:machine_verse,ab,machine_verse-02,verse-03,X,machine_verse-02,machine,"Its vivid, controlled imagery turns a familiar seascape into something hauntingly uncertain."
+gpt-5.6-luna-pro,0020,verse:machine_verse,ab,machine_verse-02,verse-03,X,machine_verse-02,machine,"Its precise, unsettling imagery and controlled cadence create a vivid, resonant atmosphere with greater immediacy."
+haiku-4.5,0020,verse:machine_verse,ab,machine_verse-02,verse-03,X,machine_verse-02,machine,It conveys darkness and uncertainty through unexpected images and phrasing.
+opus,0020,verse:machine_verse,ab,machine_verse-02,verse-03,X,machine_verse-02,machine,"X hears the sea instead of describing it and closes with a genuinely startling line; Y is a fragmentary, generalized plea."
+deepseek-v4-flash,0020,verse:machine_verse,ba,verse-03,machine_verse-02,Y,machine_verse-02,machine,"Y's imagery is more original and evocative, creating a vivid, thought-provoking seascape."
+gpt-5.6-luna,0020,verse:machine_verse,ba,verse-03,machine_verse-02,Y,machine_verse-02,machine,"Its precise, unsettling imagery transforms a familiar seascape into a meditation on perception and uncertainty."
+gpt-5.6-luna-pro,0020,verse:machine_verse,ba,verse-03,machine_verse-02,Y,machine_verse-02,machine,"Its precise, unsettling imagery turns the sea into a vivid meditation on uncertainty and human perception."
+haiku-4.5,0020,verse:machine_verse,ba,verse-03,machine_verse-02,Y,machine_verse-02,machine,"The contemporary poem's precise, original imagery surpasses the formally competent but conventional Romantic sonnet."
+opus,0020,verse:machine_verse,ba,verse-03,machine_verse-02,Y,machine_verse-02,machine,Y is clear and inventive where X's syntax knots itself around an abstract apology.
+deepseek-v4-flash,0021,verse:machine_verse,ab,machine_verse-05,verse-01,X,machine_verse-05,machine,"X is more emotionally resonant and tightly crafted, using concrete domestic details to evoke absence and love."
+gpt-5.6-luna,0021,verse:machine_verse,ab,machine_verse-05,verse-01,X,machine_verse-05,machine,"Its precise domestic imagery and restrained emotion create a vivid, resonant portrait of absence."
+gpt-5.6-luna-pro,0021,verse:machine_verse,ab,machine_verse-05,verse-01,X,machine_verse-05,machine,Its restrained imagery and emotional precision make absence feel vividly present.
+haiku-4.5,0021,verse:machine_verse,ab,machine_verse-05,verse-01,X,machine_verse-05,machine,"The domestic poem's emotional immediacy and concrete detail vastly surpass the incomplete, dated Victorian fragment."
+opus,0021,verse:machine_verse,ab,machine_verse-05,verse-01,X,machine_verse-05,machine,X's plain domestic images cut deeper than Y's decorative ballad patter.
+deepseek-v4-flash,0021,verse:machine_verse,ba,verse-01,machine_verse-05,X,verse-01,human,The passage's rhythmic patterning and mythic framing create a more distinctive and evocative literary texture.
+gpt-5.6-luna,0021,verse:machine_verse,ba,verse-01,machine_verse-05,Y,machine_verse-05,machine,"Its precise domestic details and restrained emotional arc create a more affecting, cohesive poem."
+gpt-5.6-luna-pro,0021,verse:machine_verse,ba,verse-01,machine_verse-05,Y,machine_verse-05,machine,"Its precise domestic details and restrained emotional turn create a vivid, quietly resonant portrait of absence."
+haiku-4.5,0021,verse:machine_verse,ba,verse-01,machine_verse-05,Y,machine_verse-05,machine,the same contemporary poem about domestic love beats an archaic goblin fragment.
+opus,0021,verse:machine_verse,ba,verse-01,machine_verse-05,Y,machine_verse-05,machine,Y's domestic detail creates felt longing where X is a decorative ballad pastiche.
+deepseek-v4-flash,0022,verse:machine_verse,ab,machine_verse-03,verse-01,X,machine_verse-03,machine,"This passage uses tighter, more concrete imagery and a consistent tone to evoke the absurdity and quiet aftermath of war."
+gpt-5.6-luna,0022,verse:machine_verse,ab,machine_verse-03,verse-01,X,machine_verse-03,machine,"Its controlled imagery and quiet irony create a more cohesive, resonant meditation on war than Y’s more ornamental, singsong verse."
+gpt-5.6-luna-pro,0022,verse:machine_verse,ab,machine_verse-03,verse-01,X,machine_verse-03,machine,"Its taut, controlled imagery and mounting irony create a more coherent and resonant whole."
+haiku-4.5,0022,verse:machine_verse,ab,machine_verse-03,verse-01,X,machine_verse-03,machine,The war poem's ironic precision and cutting insight into conflict's hollowness outweigh the archaic incompleteness of the Gothic verse.
+opus,0022,verse:machine_verse,ab,machine_verse-03,verse-01,X,machine_verse-03,machine,X's irony about counted dead and the indifferent field is sharper than Y's atmospheric noise.
+deepseek-v4-flash,0022,verse:machine_verse,ba,verse-01,machine_verse-03,Y,machine_verse-03,machine,The war passage is more evocative and thematically resonant.
+gpt-5.6-luna,0022,verse:machine_verse,ba,verse-01,machine_verse-03,Y,machine_verse-03,machine,"Its stark, compressed imagery and ironic treatment of victory create a more resonant and cohesive effect."
+gpt-5.6-luna-pro,0022,verse:machine_verse,ba,verse-01,machine_verse-03,Y,machine_verse-03,machine,"Its stark, rhythmic imagery captures the absurdity and emotional aftermath of war with greater coherence and force."
+haiku-4.5,0022,verse:machine_verse,ba,verse-01,machine_verse-03,Y,machine_verse-03,machine,brutal modern directness surpasses overwrought Gothic archness.
+opus,0022,verse:machine_verse,ba,verse-01,machine_verse-03,Y,machine_verse-03,machine,Y's flat irony about victory lands hard; X is pretty archaic ballad furniture.
+deepseek-v4-flash,0023,verse:machine_verse,ab,machine_verse-00,verse-01,X,machine_verse-00,machine,"The first passage is more powerful because it uses precise, intimate details to convey a universal experience of grief and the quiet persistence of memory."
+gpt-5.6-luna,0023,verse:machine_verse,ab,machine_verse-00,verse-01,X,machine_verse-00,machine,"Its intimate grief, vivid domestic details, and hauntingly compressed imagery give it greater emotional and artistic force."
+gpt-5.6-luna-pro,0023,verse:machine_verse,ab,machine_verse-00,verse-01,X,machine_verse-00,machine,Its restrained domestic details and compressed grief create a more original and emotionally resonant poem.
+haiku-4.5,0023,verse:machine_verse,ab,machine_verse-00,verse-01,X,machine_verse-00,machine,"the finely crafted meditation on grief and memory surpasses the incomplete, underdeveloped poem."
+opus,0023,verse:machine_verse,ab,machine_verse-00,verse-01,X,machine_verse-00,machine,The widow poem's turn from grief to residue is sharp and particular; the goblin ballad is generic.
+deepseek-v4-flash,0023,verse:machine_verse,ba,verse-01,machine_verse-00,Y,machine_verse-00,machine,"Y's poignant, personal reflection on grief and memory is more emotionally resonant and crafted."
+gpt-5.6-luna,0023,verse:machine_verse,ba,verse-01,machine_verse-00,Y,machine_verse-00,machine,Its precise domestic details and restrained grief create a more original and emotionally resonant portrait of loss.
+gpt-5.6-luna-pro,0023,verse:machine_verse,ba,verse-01,machine_verse-00,Y,machine_verse-00,machine,"Its precise domestic details and restrained rhythm make grief feel intimate, enduring, and genuinely earned."
+haiku-4.5,0023,verse:machine_verse,ba,verse-01,machine_verse-00,Y,machine_verse-00,machine,concrete emotional truth defeats archaic sentimental verse.
+opus,0023,verse:machine_verse,ba,verse-01,machine_verse-00,Y,machine_verse-00,machine,Y's grief is specific and surprising; X is decorative question-and-answer with little at stake.
+deepseek-v4-flash,0024,verse:machine_verse,ab,machine_verse-06,verse-03,X,machine_verse-06,machine,"X uses fresh, sensory imagery and a quiet, immersive rhythm that"
+gpt-5.6-luna,0024,verse:machine_verse,ab,machine_verse-06,verse-03,X,machine_verse-06,machine,"Its precise, patient imagery creates a vivid meditation on time, nature, and human smallness."
+gpt-5.6-luna-pro,0024,verse:machine_verse,ab,machine_verse-06,verse-03,X,machine_verse-06,machine,"Its patient, precise imagery and quiet meditation achieve greater coherence and emotional resonance."
+haiku-4.5,0024,verse:machine_verse,ab,machine_verse-06,verse-03,X,machine_verse-06,machine,The modern poem's philosophical compression and striking final line surpass the elaborate but sentimental Romantic metaphor.
+opus,0024,verse:machine_verse,ab,machine_verse-06,verse-03,X,machine_verse-06,machine,"X is clear and startling ('you become weather'), where Y is inverted, abstract, and cut off mid-thought."
+deepseek-v4-flash,0024,verse:machine_verse,ba,verse-03,machine_verse-06,Y,machine_verse-06,machine,"The second passage creates a more vivid, sensory, and immersive experience through concrete imagery and natural rhythm."
+gpt-5.6-luna,0024,verse:machine_verse,ba,verse-03,machine_verse-06,Y,machine_verse-06,machine,"Its precise imagery and quietly accumulating meditation create a more vivid, cohesive, and resonant piece."
+gpt-5.6-luna-pro,0024,verse:machine_verse,ba,verse-03,machine_verse-06,Y,machine_verse-06,machine,"Its patient imagery and startling final transformation create a vivid, cohesive meditation on time and mortality."
+haiku-4.5,0024,verse:machine_verse,ba,verse-03,machine_verse-06,Y,machine_verse-06,machine,meditative contemporary poem about time's indifference has more literary power than archaic sonnet.
+opus,0024,verse:machine_verse,ba,verse-03,machine_verse-06,Y,machine_verse-06,machine,Y earns its scale through concrete observation; X is generalized abstraction and archaic elevation.
+deepseek-v4-flash,0025,verse:machine_verse,ab,machine_verse-01,verse-02,X,machine_verse-01,machine,"Passages: X is ""The lamb is two days into being here. / It tries the field the way you try cold water: / one leg, then all of it, then back again / to the flank that smells of having been its mother. / I watch from the gate and want to teach it something, / though"
+gpt-5.6-luna,0025,verse:machine_verse,ab,machine_verse-01,verse-02,X,machine_verse-01,machine,"It is a complete, vivid meditation whose precise imagery and emotional restraint create a more unified and resonant poem."
+gpt-5.6-luna-pro,0025,verse:machine_verse,ab,machine_verse-01,verse-02,X,machine_verse-01,machine,"Its precise imagery and restrained emotional movement create a complete, resonant meditation."
+haiku-4.5,0025,verse:machine_verse,ab,machine_verse-01,verse-02,X,machine_verse-01,machine,It observes with precise clarity and emotional depth without pretension.
+opus,0025,verse:machine_verse,ab,machine_verse-01,verse-02,Y,verse-02,human,The verse paragraph earns its grandeur through tight chiastic repetition and syntactic control the lamb poem never attempts.
+deepseek-v4-flash,0025,verse:machine_verse,ba,verse-02,machine_verse-01,X,verse-02,human,The passage lacks the vivid sensory imagery and concrete emotional grounding that makes Y's exploration of new life and learning compelling.
+gpt-5.6-luna,0025,verse:machine_verse,ba,verse-02,machine_verse-01,Y,machine_verse-01,machine,"Its precise, understated imagery and emotional restraint create a vivid, resonant scene."
+gpt-5.6-luna-pro,0025,verse:machine_verse,ba,verse-02,machine_verse-01,Y,machine_verse-01,machine,"Its precise imagery and restrained emotional tension create a vivid, coherent meditation on innocence and knowledge."
+haiku-4.5,0025,verse:machine_verse,ba,verse-02,machine_verse-01,Y,machine_verse-01,machine,The poem's precise observation and striking metaphor conveys wisdom more vividly than incomplete theological rhetoric.
+opus,0025,verse:machine_verse,ba,verse-02,machine_verse-01,Y,machine_verse-01,machine,"The lamb's tentative testing of the field and the turn on 'Nothing is enormous' are freshly observed, while X is an abstract fragment cut mid-argument."
+deepseek-v4-flash,0026,verse:machine_verse,ab,machine_verse-04,verse-00,X,machine_verse-04,machine,X's imagery and emotional subtlety create a more nuanced and evocative literary experience.
+gpt-5.6-luna,0026,verse:machine_verse,ab,machine_verse-04,verse-00,X,machine_verse-04,machine,"Its precise, haunting imagery and restrained meditation on memory create greater emotional and thematic depth."
+gpt-5.6-luna-pro,0026,verse:machine_verse,ab,machine_verse-04,verse-00,X,machine_verse-04,machine,"Its precise, haunting imagery and gradual emotional erosion create a more resonant and cohesive poem."
+haiku-4.5,0026,verse:machine_verse,ab,machine_verse-04,verse-00,X,machine_verse-04,machine,"subtle meditation on forgetting surpasses the repetitive, conventional celebration of warfare."
+opus,0026,verse:machine_verse,ab,machine_verse-04,verse-00,X,machine_verse-04,machine,"A controlled, quietly devastating figure for memory loss versus mere repetitive doggerel."
+deepseek-v4-flash,0026,verse:machine_verse,ba,verse-00,machine_verse-04,X,verse-00,human,"Y uses subtle, evocative imagery to explore loss and memory, while X is a repetitive, simplistic chant."
+gpt-5.6-luna,0026,verse:machine_verse,ba,verse-00,machine_verse-04,Y,machine_verse-04,machine,Its precise imagery and quietly devastating progression create a more layered and emotionally resonant piece.
+gpt-5.6-luna-pro,0026,verse:machine_verse,ba,verse-00,machine_verse-04,Y,machine_verse-04,machine,Its precise imagery and gradual emotional revelation create a more nuanced and resonant meditation on loss.
+haiku-4.5,0026,verse:machine_verse,ba,verse-00,machine_verse-04,Y,machine_verse-04,machine,philosophical elegance and compression defeat crude repetitive verse.
+opus,0026,verse:machine_verse,ba,verse-00,machine_verse-04,Y,machine_verse-04,machine,Y makes forgetting tactile and quietly devastating; X is repetitive doggerel.
+deepseek-v4-flash,0027,verse:machine_verse,ab,machine_verse-02,verse-02,X,machine_verse-02,machine,"The passage achieves a more immediate and resonant sensory experience through precise, original imagery and rhythm, without relying on abstract theological argument."
+gpt-5.6-luna,0027,verse:machine_verse,ab,machine_verse-02,verse-02,X,machine_verse-02,machine,Its precise sensory imagery and unsettling ambiguity create a more cohesive and resonant whole.
+gpt-5.6-luna-pro,0027,verse:machine_verse,ab,machine_verse-02,verse-02,X,machine_verse-02,machine,"Its precise, unsettling imagery and rhythmic compression create a vivid atmosphere with greater immediacy and coherence."
+haiku-4.5,0027,verse:machine_verse,ab,machine_verse-02,verse-02,X,machine_verse-02,machine,"Its visceral, accessible imagery and complete philosophical argument outweigh the archaic fragment."
+opus,0027,verse:machine_verse,ab,machine_verse-02,verse-02,X,machine_verse-02,machine,"X's images are fresh and physically exact, while Y's chiasmic abstractions turn on doctrine rather than perception."
+deepseek-v4-flash,0027,verse:machine_verse,ba,verse-02,machine_verse-02,X,verse-02,human,Heavenly love outweighs hellish hate through more precise theological paradox and compression.
+gpt-5.6-luna,0027,verse:machine_verse,ba,verse-02,machine_verse-02,Y,machine_verse-02,machine,"Its precise, unsettling imagery and rhythm build toward a memorable final transformation of the beach into human vulnerability."
+gpt-5.6-luna-pro,0027,verse:machine_verse,ba,verse-02,machine_verse-02,Y,machine_verse-02,machine,"Its vivid, cohesive imagery turns the sea into an unsettling meditation on perception, impermanence, and human arrangement."
+haiku-4.5,0027,verse:machine_verse,ba,verse-02,machine_verse-02,Y,machine_verse-02,machine,It achieves vivid specificity and philosophical depth where the older passage relies on baroque formality.
+opus,0027,verse:machine_verse,ba,verse-02,machine_verse-02,Y,machine_verse-02,machine,Y is concrete and surprising; X is abstract doctrinal argument that repeats itself without imagery.
+deepseek-v4-flash,0165,lit:machine_lit,ab,lit-19,machine_lit-04,Y,machine_lit-04,machine,"The second passage uses more precise, evocative sensory details and emotional weight to create a vivid and resonant scene."
+gpt-5.6-luna,0165,lit:machine_lit,ab,lit-19,machine_lit-04,Y,machine_lit-04,machine,"Its precise sensory details and restrained psychological insight create a more vivid, emotionally complex scene."
+gpt-5.6-luna-pro,0165,lit:machine_lit,ab,lit-19,machine_lit-04,Y,machine_lit-04,machine,Its vivid sensory detail and restrained subtext convey the child’s emotional predicament with greater depth and precision.
+haiku-4.5,0165,lit:machine_lit,ab,lit-19,machine_lit-04,Y,machine_lit-04,machine,the precisely observed economic meditation achieves greater literary sophistication than the conventional romantic narrative.
+opus,0165,lit:machine_lit,ab,lit-19,machine_lit-04,Y,machine_lit-04,machine,X is light comic filler; Y is carefully observed and structurally complete.
+deepseek-v4-flash,0165,lit:machine_lit,ba,machine_lit-04,lit-19,X,machine_lit-04,machine,The first passage uses sensory details and restrained tension to create a more layered and evocative emotional atmosphere.
+gpt-5.6-luna,0165,lit:machine_lit,ba,machine_lit-04,lit-19,X,machine_lit-04,machine,"X uses precise sensory detail and implied emotional stakes to create a more vivid, psychologically nuanced scene."
+gpt-5.6-luna-pro,0165,lit:machine_lit,ba,machine_lit-04,lit-19,X,machine_lit-04,machine,Its precise sensory detail and restrained emotional tension reveal the child’s burden without stating it outright.
+haiku-4.5,0165,lit:machine_lit,ba,machine_lit-04,lit-19,X,machine_lit-04,machine,"Its psychologically mature rendering of a child processing parental conflict exceeds the surface-level, sentimental observation of Y."
+opus,0165,lit:machine_lit,ba,machine_lit-04,lit-19,X,machine_lit-04,machine,X turns overheard argument into a child's moral calculation; Y is flat comic filler.
+deepseek-v4-flash,0166,lit:machine_lit,ab,lit-12,machine_lit-00,Y,machine_lit-00,machine,"The second passage uses vivid imagery and metaphor to create a poignant, resonant reflection on memory and change."
+gpt-5.6-luna,0166,lit:machine_lit,ab,lit-12,machine_lit-00,Y,machine_lit-00,machine,"Its vivid, sustained imagery transforms a familiar house into an elegant metaphor for memory and changed identity."
+gpt-5.6-luna-pro,0166,lit:machine_lit,ab,lit-12,machine_lit-00,Y,machine_lit-00,machine,"Its vivid, controlled imagery turns a return home into a poignant meditation on memory, change, and outgrowing the past."
+haiku-4.5,0166,lit:machine_lit,ab,lit-12,machine_lit-00,Y,machine_lit-00,machine,It transforms a common experience through surprising metaphors and sustained reflection.
+opus,0166,lit:machine_lit,ab,lit-12,machine_lit-00,Y,machine_lit-00,machine,"The shrunken-house conceit is sustained and physically exact, while X is a slight comic transcription of overheard chatter."
+deepseek-v4-flash,0166,lit:machine_lit,ba,machine_lit-00,lit-12,X,machine_lit-00,machine,X uses more evocative imagery and emotional depth to explore memory and change.
+gpt-5.6-luna,0166,lit:machine_lit,ba,machine_lit-00,lit-12,X,machine_lit-00,machine,"It transforms the familiar house into a vivid, emotionally resonant metaphor for memory and estrangement."
+gpt-5.6-luna-pro,0166,lit:machine_lit,ba,machine_lit-00,lit-12,X,machine_lit-00,machine,Its precise imagery and controlled metaphor turn a familiar return home into a poignant meditation on memory and change.
+haiku-4.5,0166,lit:machine_lit,ba,machine_lit-00,lit-12,X,machine_lit-00,machine,the folded house metaphor and sensory precision beat gossipy period chitchat.
+opus,0166,lit:machine_lit,ba,machine_lit-00,lit-12,X,machine_lit-00,machine,"Controlled, resonant conceit versus Y's transcribed child-chatter with little payoff."
+deepseek-v4-flash,0167,lit:machine_lit,ab,lit-02,machine_lit-01,Y,machine_lit-01,machine,"The second passage creates a vivid, atmospheric sense of place and mood through precise imagery and restrained detail."
+gpt-5.6-luna,0167,lit:machine_lit,ab,lit-02,machine_lit-01,Y,machine_lit-01,machine,"Its restrained detail, atmospheric imagery, and quiet tension create a more cohesive and evocative piece."
+gpt-5.6-luna-pro,0167,lit:machine_lit,ab,lit-02,machine_lit-01,Y,machine_lit-01,machine,"Its restrained detail, atmosphere, and implied tension create a more cohesive and resonant scene."
+haiku-4.5,0167,lit:machine_lit,ab,lit-02,machine_lit-01,Y,machine_lit-01,machine,"Its atmospheric, spare rendering of waiting and mood is far more sophisticated than broad comedy."
+opus,0167,lit:machine_lit,ab,lit-02,machine_lit-01,Y,machine_lit-01,machine,"The waiting platform gets its meaning from weather, silence, and the bell that announces nothing; X is comic dialect business."
+deepseek-v4-flash,0167,lit:machine_lit,ba,machine_lit-01,lit-02,X,machine_lit-01,machine,"The passage evokes a more vivid and atmospheric sense of place and emotion through precise, sensory language and understated tension."
+gpt-5.6-luna,0167,lit:machine_lit,ba,machine_lit-01,lit-02,X,machine_lit-01,machine,"Its restrained imagery and mounting silence create a more resonant, unified atmosphere."
+gpt-5.6-luna-pro,0167,lit:machine_lit,ba,machine_lit-01,lit-02,X,machine_lit-01,machine,"Its restrained prose, precise imagery, and quiet tension create a more resonant atmosphere."
+haiku-4.5,0167,lit:machine_lit,ba,machine_lit-01,lit-02,X,machine_lit-01,machine,spare atmosphere and precise observation outweigh colloquial charm.
+opus,0167,lit:machine_lit,ba,machine_lit-01,lit-02,X,machine_lit-01,machine,X builds real atmosphere and withheld feeling from a few objects; Y is animated dialogue that needs its novel around it.
+deepseek-v4-flash,0168,lit:machine_lit,ab,lit-13,machine_lit-06,Y,machine_lit-06,machine,"The second passage uses concrete, sensory details and emotional nuance to create a resonant, character-driven moment, while the first is more expositional and plot-focused."
+gpt-5.6-luna,0168,lit:machine_lit,ab,lit-13,machine_lit-06,Y,machine_lit-06,machine,"Its precise, emotionally layered details turn an ordinary act of sorting possessions into a quietly devastating portrait of loss."
+gpt-5.6-luna-pro,0168,lit:machine_lit,ab,lit-13,machine_lit-06,Y,machine_lit-06,machine,"Its precise physical details and understated emotional conflict create a poignant, layered portrait of loss."
+haiku-4.5,0168,lit:machine_lit,ab,lit-13,machine_lit-06,Y,machine_lit-06,machine,Its psychological observation of social dynamics far exceeds the generic detective dialogue.
+opus,0168,lit:machine_lit,ab,lit-13,machine_lit-06,Y,machine_lit-06,machine,Y builds a whole grief through objects; X is serviceable plot dialogue.
+deepseek-v4-flash,0168,lit:machine_lit,ba,machine_lit-06,lit-13,X,machine_lit-06,machine,"The passage achieves a quiet, resonant emotional depth through precise, understated detail and rhythm."
+gpt-5.6-luna,0168,lit:machine_lit,ba,machine_lit-06,lit-13,X,machine_lit-06,machine,Its restrained imagery and emotional precision make the quiet act of sorting possessions deeply affecting.
+gpt-5.6-luna-pro,0168,lit:machine_lit,ba,machine_lit-06,lit-13,X,machine_lit-06,machine,"Its precise, emotionally resonant details transform ordinary sorting into a subtle portrait of grief and self-erasure."
+haiku-4.5,0168,lit:machine_lit,ba,machine_lit-06,lit-13,X,machine_lit-06,machine,The emotional subtlety and heartbreaking specificity of grieving transcends functional detective dialogue.
+opus,0168,lit:machine_lit,ba,machine_lit-06,lit-13,X,machine_lit-06,machine,"The three piles and the final saucer with no cup make grief concrete, whereas Y is workmanlike plot dialogue."
+deepseek-v4-flash,0169,lit:machine_lit,ab,lit-14,machine_lit-02,Y,machine_lit-02,machine,"The second passage uses precise, restrained detail to convey emotional tension and psychological complexity, making it the more accomplished piece of literary writing."
+gpt-5.6-luna,0169,lit:machine_lit,ab,lit-14,machine_lit-02,Y,machine_lit-02,machine,"Its controlled tension, vivid imagery, and psychologically precise detail create a more compelling and layered scene."
+gpt-5.6-luna-pro,0169,lit:machine_lit,ab,lit-14,machine_lit-02,Y,machine_lit-02,machine,"Its precise imagery and understated psychological tension create a more vivid, layered scene."
+haiku-4.5,0169,lit:machine_lit,ab,lit-14,machine_lit-02,Y,machine_lit-02,machine,The narrative's psychological tension conveyed through careful observation and physical precision creates greater complexity than Austen's character-revealing dialogue.
+opus,0169,lit:machine_lit,ab,lit-14,machine_lit-02,X,lit-14,human,"Austen's speech is perfect ventriloquism, exposing vanity through the speaker's own words; Y is well-made but conventional."
+deepseek-v4-flash,0169,lit:machine_lit,ba,machine_lit-02,lit-14,X,machine_lit-02,machine,"The prose demonstrates greater psychological depth and tension through precise, restrained observation."
+gpt-5.6-luna,0169,lit:machine_lit,ba,machine_lit-02,lit-14,X,machine_lit-02,machine,"It creates a more layered, psychologically charged moment through precise physical detail and implied history."
+gpt-5.6-luna-pro,0169,lit:machine_lit,ba,machine_lit-02,lit-14,X,machine_lit-02,machine,"Its controlled imagery and compressed psychological tension create a more vivid, layered scene."
+haiku-4.5,0169,lit:machine_lit,ba,machine_lit-02,lit-14,X,machine_lit-02,machine,psychological acuity and tension exceed lightweight Austen dialogue.
+opus,0169,lit:machine_lit,ba,machine_lit-02,lit-14,X,machine_lit-02,machine,X measures dread in feet of lawn and makes self-knowledge the subject; Y is fine comic chatter but slighter alone.
+deepseek-v4-flash,0170,lit:machine_lit,ab,lit-26,machine_lit-05,Y,machine_lit-05,machine,"The second passage achieves greater literary resonance through its sustained, precise metaphor and psychological depth."
+gpt-5.6-luna,0170,lit:machine_lit,ab,lit-26,machine_lit-05,Y,machine_lit-05,machine,Its restrained imagery and emotional precision make the character’s quiet resignation feel deeply affecting.
+gpt-5.6-luna-pro,0170,lit:machine_lit,ab,lit-26,machine_lit-05,Y,machine_lit-05,machine,Its restrained imagery and accumulating arithmetic render the character’s quiet economic despair with greater psychological precision.
+haiku-4.5,0170,lit:machine_lit,ab,lit-26,machine_lit-05,Y,machine_lit-05,machine,the economically precise contemporary observation outshines the theatrical Victorian dialogue.
+opus,0170,lit:machine_lit,ab,lit-26,machine_lit-05,X,lit-26,human,"Kipling's cobra sustains an extraordinary rhetorical pitch, while Y, though fine, works a single metaphor rather evenly."
+deepseek-v4-flash,0170,lit:machine_lit,ba,machine_lit-05,lit-26,X,machine_lit-05,machine,"X achieves a subtle, resonant interiority through precise imagery and metaphor, while Y relies on dramatic dialogue and mythic convention."
+gpt-5.6-luna,0170,lit:machine_lit,ba,machine_lit-05,lit-26,X,machine_lit-05,machine,"Its restrained prose, precise imagery, and quietly accumulating emotional insight create a more compelling literary effect."
+gpt-5.6-luna-pro,0170,lit:machine_lit,ba,machine_lit-05,lit-26,X,machine_lit-05,machine,"Its restrained prose and precise imagery create a subtle, psychologically resonant portrait of economic hardship."
+haiku-4.5,0170,lit:machine_lit,ba,machine_lit-05,lit-26,X,machine_lit-05,machine,"Economical, meditative prose with sophisticated metaphors for poverty exceeds melodramatic fantasy rhetoric."
+opus,0170,lit:machine_lit,ba,machine_lit-05,lit-26,Y,lit-26,human,"The cobra's incantatory boasting has voice, menace and strangeness; X is elegantly written but stays inside one sustained conceit."
+deepseek-v4-flash,0171,lit:machine_lit,ab,lit-20,machine_lit-03,X,lit-20,human,"The second passage uses vivid sensory imagery and metaphor to create a powerful, immersive atmosphere, while the first is a dry, expository summary."
+gpt-5.6-luna,0171,lit:machine_lit,ab,lit-20,machine_lit-03,Y,machine_lit-03,machine,"Its precise sensory imagery and reflective metaphor create a vivid, resonant atmosphere."
+gpt-5.6-luna-pro,0171,lit:machine_lit,ab,lit-20,machine_lit-03,Y,machine_lit-03,machine,Its vivid sensory detail and sustained metaphor transform a moment of stillness into a profound reflection on the sea.
+haiku-4.5,0171,lit:machine_lit,ab,lit-20,machine_lit-03,Y,machine_lit-03,machine,"It is actual creative writing with sophisticated observation, where X is mere plot summary."
+opus,0171,lit:machine_lit,ab,lit-20,machine_lit-03,Y,machine_lit-03,machine,"X is a publisher's blurb, not literary writing; Y is sustained and observant prose."
+deepseek-v4-flash,0171,lit:machine_lit,ba,machine_lit-03,lit-20,X,machine_lit-03,machine,"X is the better piece of literary writing because its language is vivid, evocative, and poetic, while Y is merely a plot summary."
+gpt-5.6-luna,0171,lit:machine_lit,ba,machine_lit-03,lit-20,X,machine_lit-03,machine,"Its vivid, rhythmic imagery transforms a becalmed sea into a haunting meditation on perception and patience."
+gpt-5.6-luna-pro,0171,lit:machine_lit,ba,machine_lit-03,lit-20,X,machine_lit-03,machine,It transforms a still seascape into a vivid meditation through precise sensory detail and resonant metaphor.
+haiku-4.5,0171,lit:machine_lit,ba,machine_lit-03,lit-20,X,machine_lit-03,machine,contemplative prose with genuine philosophical insight beats a book-jacket plot description entirely.
+opus,0171,lit:machine_lit,ba,machine_lit-03,lit-20,X,machine_lit-03,machine,X turns a becalmed sea into a real perception; Y is not fiction at all but promotional copy.
+deepseek-v4-flash,0172,lit:machine_lit,ab,lit-23,machine_lit-07,X,lit-23,human,"The passage uses more vivid, original sensory details and a sharper emotional tension in the social scene."
+gpt-5.6-luna,0172,lit:machine_lit,ab,lit-23,machine_lit-07,Y,machine_lit-07,machine,"Its precise sensory detail and understated social tension create a richer, more psychologically complex scene."
+gpt-5.6-luna-pro,0172,lit:machine_lit,ab,lit-23,machine_lit-07,Y,machine_lit-07,machine,"Its precise, understated observation turns a social slight into a quietly escalating scene of psychological tension."
+haiku-4.5,0172,lit:machine_lit,ab,lit-23,machine_lit-07,Y,machine_lit-07,machine,Its sophistication and emotional intelligence transcend the plodding narrative of X.
+opus,0172,lit:machine_lit,ab,lit-23,machine_lit-07,Y,machine_lit-07,machine,Y's scene is compressed and psychologically acute; X is competent weather reportage.
+deepseek-v4-flash,0172,lit:machine_lit,ba,machine_lit-07,lit-23,X,machine_lit-07,machine,"Looking at X: It's a subtle, nuanced scene about social dynamics, with careful observation of how people's behavior shifts when a woman enters. The language is precise and evocative: ""cold still on her sleeves,"" ""half-tone quieter,"" ""finished it too carefully, the ends tucked in."" It conveys a compl"
+gpt-5.6-luna,0172,lit:machine_lit,ba,machine_lit-07,lit-23,X,machine_lit-07,machine,"Its precise, atmospheric prose captures social tension through subtle gestures and sharply controlled detail."
+gpt-5.6-luna-pro,0172,lit:machine_lit,ba,machine_lit-07,lit-23,X,machine_lit-07,machine,"Its precise, understated details render social unease with greater psychological and stylistic depth."
+haiku-4.5,0172,lit:machine_lit,ba,machine_lit-07,lit-23,X,machine_lit-07,machine,sophisticated narrative control exceeds informal vernacular prose.
+opus,0172,lit:machine_lit,ba,machine_lit-07,lit-23,X,machine_lit-07,machine,X is controlled and psychologically acute; Y is pleasant weather-diary reportage.
+deepseek-v4-flash,0173,lit:machine_lit,ab,lit-27,machine_lit-04,Y,machine_lit-04,machine,"Y uses more vivid sensory details and psychological depth to create a haunting, layered emotional experience."
+gpt-5.6-luna,0173,lit:machine_lit,ab,lit-27,machine_lit-04,Y,machine_lit-04,machine,"Its precise sensory details and restrained subtext create a more vivid, emotionally complex scene."
+gpt-5.6-luna-pro,0173,lit:machine_lit,ab,lit-27,machine_lit-04,Y,machine_lit-04,machine,"Its precise sensory details and restrained emotional tension create a more vivid, psychologically complex scene."
+haiku-4.5,0173,lit:machine_lit,ab,lit-27,machine_lit-04,Y,machine_lit-04,machine,the psychologically acute rendering of a child hearing parental conflict surpasses conventional romantic dialogue.
+opus,0173,lit:machine_lit,ab,lit-27,machine_lit-04,Y,machine_lit-04,machine,"X is flat expository dialogue; Y renders a child's overheard argument with precise, weighted detail."
+deepseek-v4-flash,0173,lit:machine_lit,ba,machine_lit-04,lit-27,X,machine_lit-04,machine,The passage uses sensory detail and imagery to create a deeply immersive and psychologically nuanced moment.
+gpt-5.6-luna,0173,lit:machine_lit,ba,machine_lit-04,lit-27,X,machine_lit-04,machine,"Its precise sensory detail and restrained emotional tension create a more layered, psychologically compelling scene."
+gpt-5.6-luna-pro,0173,lit:machine_lit,ba,machine_lit-04,lit-27,X,machine_lit-04,machine,"Its precise sensory detail and restrained emotional subtext create a more vivid, psychologically complex scene."
+haiku-4.5,0173,lit:machine_lit,ba,machine_lit-04,lit-27,X,machine_lit-04,machine,The psychological depth of a child internalizing parental conflict surpasses conventional romantic dialogue.
+opus,0173,lit:machine_lit,ba,machine_lit-04,lit-27,X,machine_lit-04,machine,"The child's refusal to climb the stairs is dramatized with precise detail (the carefully shut cupboard door), while Y is flat expository dialogue."
+deepseek-v4-flash,0174,lit:machine_lit,ab,lit-29,machine_lit-00,X,lit-29,human,The passage's visceral immediacy and desperate longing create a more powerful emotional impact through its dramatic tension and sensuous language.
+gpt-5.6-luna,0174,lit:machine_lit,ab,lit-29,machine_lit-00,Y,machine_lit-00,machine,"Its precise sensory details and sustained metaphor render memory, estrangement, and return with greater subtlety and emotional force."
+gpt-5.6-luna-pro,0174,lit:machine_lit,ab,lit-29,machine_lit-00,Y,machine_lit-00,machine,"Its precise, sustained imagery makes the protagonist’s changed relationship to the house emotionally vivid and subtly uncanny."
+haiku-4.5,0174,lit:machine_lit,ab,lit-29,machine_lit-00,Y,machine_lit-00,machine,"It creates sustained metaphorical depth about time and space, unlike melodramatic intensity."
+opus,0174,lit:machine_lit,ab,lit-29,machine_lit-00,Y,machine_lit-00,machine,"X leans on generic gothic yearning and vague abstractions; Y earns its emotion through concrete, measured detail."
+deepseek-v4-flash,0174,lit:machine_lit,ba,machine_lit-00,lit-29,X,machine_lit-00,machine,"X uses precise, evocative details and a consistent metaphor to create a resonant meditation on memory and change."
+gpt-5.6-luna,0174,lit:machine_lit,ba,machine_lit-00,lit-29,X,machine_lit-00,machine,"Its precise, evocative imagery makes estrangement from the past feel both physical and emotionally profound."
+gpt-5.6-luna-pro,0174,lit:machine_lit,ba,machine_lit-00,lit-29,X,machine_lit-00,machine,"Its precise, haunting imagery turns a familiar house into a powerful measure of memory, time, and changed identity."
+haiku-4.5,0174,lit:machine_lit,ba,machine_lit-00,lit-29,X,machine_lit-00,machine,sophisticated metaphor and structure eclipse Victorian sentimentality and melodrama.
+opus,0174,lit:machine_lit,ba,machine_lit-00,lit-29,X,machine_lit-00,machine,X is patient and controlled; Y lurches into overwrought exclamation without preparing it.
+deepseek-v4-flash,0175,lit:machine_lit,ab,lit-06,machine_lit-01,X,lit-06,human,The passage's rich imagery and layered emotional depth create a more nuanced and evocative literary experience.
+gpt-5.6-luna,0175,lit:machine_lit,ab,lit-06,machine_lit-01,X,lit-06,human,"Its precise, luminous imagery and subtle characterization create a richer, more distinctive emotional texture."
+gpt-5.6-luna-pro,0175,lit:machine_lit,ab,lit-06,machine_lit-01,X,lit-06,human,"Its precise, luminous imagery and elegant characterization create a richer, more distinctive portrait."
+haiku-4.5,0175,lit:machine_lit,ab,lit-06,machine_lit-01,X,lit-06,human,Wharton's rich sensory detail and character development create more sustained literary richness than the minimal station scene.
+opus,0175,lit:machine_lit,ab,lit-06,machine_lit-01,X,lit-06,human,The sunlight-netting image and the 'young marble athlete' close are far finer than Y's competent but generic rain scene.
+deepseek-v4-flash,0175,lit:machine_lit,ba,machine_lit-01,lit-06,Y,lit-06,human,"Y's writing is more richly textured, with layered imagery and emotional resonance that deepens character and atmosphere."
+gpt-5.6-luna,0175,lit:machine_lit,ba,machine_lit-01,lit-06,X,machine_lit-01,machine,"Its restrained detail and quiet tension create a more resonant, atmospheric scene."
+gpt-5.6-luna-pro,0175,lit:machine_lit,ba,machine_lit-01,lit-06,X,machine_lit-01,machine,"Its restrained imagery and quiet tension create a more resonant, cohesive atmosphere."
+haiku-4.5,0175,lit:machine_lit,ba,machine_lit-01,lit-06,X,machine_lit-01,machine,Its sparse economy and understatement outweighs the conventional lushness of the Wharton-like passage.
+opus,0175,lit:machine_lit,ba,machine_lit-01,lit-06,X,machine_lit-01,machine,X's spare detail and unanswered crossing bell do far more than Y's conventional prettiness.
+deepseek-v4-flash,0176,lit:machine_lit,ab,lit-17,machine_lit-06,X,lit-17,human,"Y creates a more emotionally resonant and visually specific scene through its careful, layered details."
+gpt-5.6-luna,0176,lit:machine_lit,ab,lit-17,machine_lit-06,Y,machine_lit-06,machine,"Its precise, resonant details turn an ordinary act of sorting possessions into a quietly devastating portrait of grief."
+gpt-5.6-luna-pro,0176,lit:machine_lit,ab,lit-17,machine_lit-06,Y,machine_lit-06,machine,"Its precise, emotionally resonant details turn an ordinary act of sorting possessions into a quietly devastating portrait of grief."
+haiku-4.5,0176,lit:machine_lit,ab,lit-17,machine_lit-06,Y,machine_lit-06,machine,It captures grief and memory with subtle precision and contemporary psychological insight.
+opus,0176,lit:machine_lit,ab,lit-17,machine_lit-06,Y,machine_lit-06,machine,"The sorting of a dead wife's things is concrete and self-aware, while the other is a flat legalistic report of a conversation."
+deepseek-v4-flash,0176,lit:machine_lit,ba,machine_lit-06,lit-17,X,machine_lit-06,machine,"X uses precise, evocative details and subtle emotional weight to show loss and memory, while Y is more expository and less immediate."
+gpt-5.6-luna,0176,lit:machine_lit,ba,machine_lit-06,lit-17,X,machine_lit-06,machine,"Its precise, understated details make grief and self-erasure emotionally tangible."
+gpt-5.6-luna-pro,0176,lit:machine_lit,ba,machine_lit-06,lit-17,X,machine_lit-06,machine,Its precise physical details and restrained emotional symbolism make grief palpable without stating it outright.
+haiku-4.5,0176,lit:machine_lit,ba,machine_lit-06,lit-17,X,machine_lit-06,machine,"the saucer and the grief of sorting a life's belongings is devastatingly rendered, far superior to didactic eighteenth-century exposition."
+opus,0176,lit:machine_lit,ba,machine_lit-06,lit-17,X,machine_lit-06,machine,"The three piles render grief through handled objects, while Y is flat reported legalese."
+deepseek-v4-flash,0177,lit:machine_lit,ab,lit-00,machine_lit-02,Y,machine_lit-02,machine,It offers a more nuanced psychological portrait and subtly builds tension through the character's internal awareness.
+gpt-5.6-luna,0177,lit:machine_lit,ab,lit-00,machine_lit-02,Y,machine_lit-02,machine,"Its precise sensory detail and understated psychological tension create a more vivid, layered encounter."
+gpt-5.6-luna-pro,0177,lit:machine_lit,ab,lit-00,machine_lit-02,Y,machine_lit-02,machine,"Its precise physical details and compressed psychological tension create a more vivid, layered encounter."
+haiku-4.5,0177,lit:machine_lit,ab,lit-00,machine_lit-02,Y,machine_lit-02,machine,Its subtle observation of relational dynamics and anticipation far exceeds action-plot breathlessness.
+opus,0177,lit:machine_lit,ab,lit-00,machine_lit-02,Y,machine_lit-02,machine,Y's thirty feet of lawn carries more tension than X's crowded offstage brawl.
+deepseek-v4-flash,0177,lit:machine_lit,ba,machine_lit-02,lit-00,X,machine_lit-02,machine,X's psychological depth and restrained tension make it more compelling as literary writing.
+gpt-5.6-luna,0177,lit:machine_lit,ba,machine_lit-02,lit-00,X,machine_lit-02,machine,"X renders psychological tension with precise, economical imagery, while Y relies on cluttered exposition and melodramatic action."
+gpt-5.6-luna-pro,0177,lit:machine_lit,ba,machine_lit-02,lit-00,X,machine_lit-02,machine,Its precise imagery and understated psychological tension create a more compelling and nuanced scene.
+haiku-4.5,0177,lit:machine_lit,ba,machine_lit-02,lit-00,X,machine_lit-02,machine,psychological insight into unspoken tension surpasses plot-driven action description.
+opus,0177,lit:machine_lit,ba,machine_lit-02,lit-00,X,machine_lit-02,machine,X controls distance and dread with measured detail; Y is busy off-stage action reported at secondhand.
+deepseek-v4-flash,0178,lit:machine_lit,ab,lit-11,machine_lit-05,X,lit-11,human,"The second passage uses more vivid sensory detail and metaphor to create a richer, more emotionally resonant experience."
+gpt-5.6-luna,0178,lit:machine_lit,ab,lit-11,machine_lit-05,Y,machine_lit-05,machine,Its precise imagery and understated emotional depth turn ordinary financial arithmetic into a poignant portrait of a constrained life.
+gpt-5.6-luna-pro,0178,lit:machine_lit,ab,lit-11,machine_lit-05,Y,machine_lit-05,machine,"Its precise imagery and restrained emotional insight create a more vivid, psychologically resonant passage."
+haiku-4.5,0178,lit:machine_lit,ab,lit-11,machine_lit-05,Y,machine_lit-05,machine,It achieves philosophical depth through sustained metaphorical thinking about survival.
+opus,0178,lit:machine_lit,ab,lit-11,machine_lit-05,Y,machine_lit-05,machine,"Y makes arithmetic into character and ends on a fine, unforced simile; X is efficient but flat connective narration."
+deepseek-v4-flash,0178,lit:machine_lit,ba,machine_lit-05,lit-11,X,machine_lit-05,machine,"The passage achieves deeper emotional resonance through precise, metaphor-rich language that transforms mundane arithmetic into a meditation on resignation and quiet dignity."
+gpt-5.6-luna,0178,lit:machine_lit,ba,machine_lit-05,lit-11,X,machine_lit-05,machine,Its precise imagery and understated emotional insight give the passage greater unity and resonance.
+gpt-5.6-luna-pro,0178,lit:machine_lit,ba,machine_lit-05,lit-11,X,machine_lit-05,machine,"Its precise imagery and quietly accumulating emotional weight create a more resonant, self-contained passage."
+haiku-4.5,0178,lit:machine_lit,ba,machine_lit-05,lit-11,X,machine_lit-05,machine,The profound recognition of emotional subsistence transcends Y's conventional social drama.
+opus,0178,lit:machine_lit,ba,machine_lit-05,lit-11,X,machine_lit-05,machine,X's arithmetic-as-company builds a whole life out of one walk; Y is expository chat.
+deepseek-v4-flash,0179,lit:machine_lit,ab,lit-24,machine_lit-03,X,lit-24,human,"Passage X is from a story (likely Poe's ""The Fall of the House of Usher"" or similar) describing a house with intricate, labyrinthine architecture. It has a ornate, somewhat archaic style.  Passage Y is a vivid description of a calm sea, with sensory details and a reflective tone. It uses imagery lik"
+gpt-5.6-luna,0179,lit:machine_lit,ab,lit-24,machine_lit-03,Y,machine_lit-03,machine,Its vivid sensory detail and quietly transformative metaphor create a more immersive and resonant scene.
+gpt-5.6-luna-pro,0179,lit:machine_lit,ab,lit-24,machine_lit-03,Y,machine_lit-03,machine,Its vivid sensory imagery and quietly shifting metaphor create a more distinctive and emotionally resonant scene.
+haiku-4.5,0179,lit:machine_lit,ab,lit-24,machine_lit-03,Y,machine_lit-03,machine,Its striking metaphors and precise observation of stillness achieve far greater literary depth.
+opus,0179,lit:machine_lit,ab,lit-24,machine_lit-03,Y,machine_lit-03,machine,Y builds one sustained image toward a genuine realization; X piles up adjectives about architecture.
+deepseek-v4-flash,0179,lit:machine_lit,ba,machine_lit-03,lit-24,X,machine_lit-03,machine,"The passage uses precise, sensory detail to create a single, powerful moment of revelation."
+gpt-5.6-luna,0179,lit:machine_lit,ba,machine_lit-03,lit-24,X,machine_lit-03,machine,"Its precise sensory detail, controlled rhythm, and quiet transformation make the scene more vivid and emotionally resonant."
+gpt-5.6-luna-pro,0179,lit:machine_lit,ba,machine_lit-03,lit-24,X,machine_lit-03,machine,"Its precise sensory detail, rhythmic sentences, and sustained metaphor transform stillness into something uncanny and profound."
+haiku-4.5,0179,lit:machine_lit,ba,machine_lit-03,lit-24,X,machine_lit-03,machine,Spare precise imagery and philosophical insight about observation surpass baroque Gothic ornamentation.
+opus,0179,lit:machine_lit,ba,machine_lit-03,lit-24,X,machine_lit-03,machine,The widening rings on dead-calm water build to a genuine revelation; Y's exclamatory catalogue of corridors stays decorative.
+deepseek-v4-flash,0180,lit:machine_lit,ab,lit-25,machine_lit-07,X,lit-25,human,The first passage uses more vivid and original sensory imagery to achieve its effect.
+gpt-5.6-luna,0180,lit:machine_lit,ab,lit-25,machine_lit-07,Y,machine_lit-07,machine,"Its precise social tension and understated emotional revelation create a more nuanced, resonant scene."
+gpt-5.6-luna-pro,0180,lit:machine_lit,ab,lit-25,machine_lit-07,Y,machine_lit-07,machine,Its precise sensory detail and understated social tension create richer subtext and emotional complexity.
+haiku-4.5,0180,lit:machine_lit,ab,lit-25,machine_lit-07,Y,machine_lit-07,machine,It captures social subtlety through physical observation and subtext with masterful restraint.
+opus,0180,lit:machine_lit,ab,lit-25,machine_lit-07,Y,machine_lit-07,machine,"Y renders social exclusion through precise, observed behaviour rather than X's leisurely mythic description."
+deepseek-v4-flash,0180,lit:machine_lit,ba,machine_lit-07,lit-25,X,machine_lit-07,machine,"X uses more subtle, psychologically intricate language and creates a layered social atmosphere with precise imagery."
+gpt-5.6-luna,0180,lit:machine_lit,ba,machine_lit-07,lit-25,X,machine_lit-07,machine,"Its precise, understated prose renders social unease with greater psychological depth and originality."
+gpt-5.6-luna-pro,0180,lit:machine_lit,ba,machine_lit-07,lit-25,X,machine_lit-07,machine,"Its precise, understated details convey social cruelty and emotional subtext with greater subtlety and control."
+haiku-4.5,0180,lit:machine_lit,ba,machine_lit-07,lit-25,X,machine_lit-07,machine,nuanced social observation of humiliation through atmosphere and gesture exceeds mythological description.
+opus,0180,lit:machine_lit,ba,machine_lit-07,lit-25,X,machine_lit-07,machine,X catches a social exclusion in its smallest gestures and ends on the sharper insight; Y is plain descriptive narration.
+deepseek-v4-flash,0181,lit:machine_lit,ab,lit-26,machine_lit-04,Y,machine_lit-04,machine,"The second passage uses precise sensory details and restrained interiority to create a vivid, emotionally resonant moment, while the first relies on more conventional mythological exposition."
+gpt-5.6-luna,0181,lit:machine_lit,ab,lit-26,machine_lit-04,Y,machine_lit-04,machine,Its precise sensory details and restrained emotional tension make the child’s unease immediate and psychologically complex.
+gpt-5.6-luna-pro,0181,lit:machine_lit,ab,lit-26,machine_lit-04,Y,machine_lit-04,machine,Its precise sensory detail and understated emotional tension make the child’s apprehension feel immediate and deeply human.
+haiku-4.5,0181,lit:machine_lit,ab,lit-26,machine_lit-04,Y,machine_lit-04,machine,the delicate psychological rendering outshines the overwrought theatrical dialogue.
+opus,0181,lit:machine_lit,ab,lit-26,machine_lit-04,X,lit-26,human,"The cobra's incantatory, self-consuming grandeur is a stronger piece of voiced writing than Y's quieter domestic interior."
+deepseek-v4-flash,0181,lit:machine_lit,ba,machine_lit-04,lit-26,X,machine_lit-04,machine,It more deeply conveys a child's internal experience of domestic tension through subtle sensory detail and restraint.
+gpt-5.6-luna,0181,lit:machine_lit,ba,machine_lit-04,lit-26,X,machine_lit-04,machine,"Its precise sensory detail and restrained emotional tension create a more vivid, psychologically resonant scene."
+gpt-5.6-luna-pro,0181,lit:machine_lit,ba,machine_lit-04,lit-26,X,machine_lit-04,machine,"Its restrained imagery and precise emotional tension make the scene feel intimate, complex, and convincingly lived."
+haiku-4.5,0181,lit:machine_lit,ba,machine_lit-04,lit-26,X,machine_lit-04,machine,nuanced psychological portrayal eclipses theatrical melodrama.
+opus,0181,lit:machine_lit,ba,machine_lit-04,lit-26,X,machine_lit-04,machine,X renders a child's calculation about overheard argument with unusual exactness; Y is vivid but declamatory.
+deepseek-v4-flash,0182,lit:machine_lit,ab,lit-25,machine_lit-00,Y,machine_lit-00,machine,"The second passage uses precise, evocative imagery and metaphor to create a resonant emotional experience, while the first relies on more conventional description."
+gpt-5.6-luna,0182,lit:machine_lit,ab,lit-25,machine_lit-00,Y,machine_lit-00,machine,"Its vivid, emotionally resonant imagery transforms a familiar return into a haunting meditation on memory and change."
+gpt-5.6-luna-pro,0182,lit:machine_lit,ab,lit-25,machine_lit-00,Y,machine_lit-00,machine,"Its precise, evocative imagery turns a familiar house into a powerful metaphor for memory, time, and outgrowing the past."
+haiku-4.5,0182,lit:machine_lit,ab,lit-25,machine_lit-00,Y,machine_lit-00,machine,Its lyrical precision and sustained meditation surpasses mechanical description.
+opus,0182,lit:machine_lit,ab,lit-25,machine_lit-00,Y,machine_lit-00,machine,"X is pleasant, plainly-told mythology retelling; Y has a controlling idea and prose that shapes itself to it."
+deepseek-v4-flash,0182,lit:machine_lit,ba,machine_lit-00,lit-25,X,machine_lit-00,machine,"The passage's subtle, precise imagery of time and scale creates a more evocative and layered reading experience."
+gpt-5.6-luna,0182,lit:machine_lit,ba,machine_lit-00,lit-25,X,machine_lit-00,machine,"It uses precise, evocative imagery to transform the familiar house into a powerful expression of memory and estrangement."
+gpt-5.6-luna-pro,0182,lit:machine_lit,ba,machine_lit-00,lit-25,X,machine_lit-00,machine,"Its precise, evocative imagery turns a familiar return into a subtle meditation on memory, aging, and estrangement."
+haiku-4.5,0182,lit:machine_lit,ba,machine_lit-00,lit-25,X,machine_lit-00,machine,metaphorical richness exceeds mythological narrative exposition.
+opus,0182,lit:machine_lit,ba,machine_lit-00,lit-25,X,machine_lit-00,machine,The shrunken-house conceit is developed with exact physical detail and lands on a genuinely earned closing turn.
+deepseek-v4-flash,0183,lit:machine_lit,ab,lit-11,machine_lit-01,X,lit-11,human,"The first passage reveals character complexity through social and moral nuance, while the second relies on atmospheric description."
+gpt-5.6-luna,0183,lit:machine_lit,ab,lit-11,machine_lit-01,Y,machine_lit-01,machine,"Its precise imagery, restrained tension, and rhythmic atmosphere create a more compelling scene."
+gpt-5.6-luna-pro,0183,lit:machine_lit,ab,lit-11,machine_lit-01,Y,machine_lit-01,machine,"Its precise, atmospheric details create a compelling sense of tension and isolation without overt explanation."
+haiku-4.5,0183,lit:machine_lit,ab,lit-11,machine_lit-01,Y,machine_lit-01,machine,Its restraint and precise observation of place create deeper literary resonance.
+opus,0183,lit:machine_lit,ab,lit-11,machine_lit-01,Y,machine_lit-01,machine,Y builds atmosphere and unspoken tension through restraint; X is brief summarizing commentary.
+deepseek-v4-flash,0183,lit:machine_lit,ba,machine_lit-01,lit-11,X,machine_lit-01,machine,"The passage uses precise, sensory detail and atmospheric tension to create a more immersive and evocative moment."
+gpt-5.6-luna,0183,lit:machine_lit,ba,machine_lit-01,lit-11,Y,lit-11,human,"Its precise, lightly ironic characterization conveys complex social tensions with greater subtlety and economy."
+gpt-5.6-luna-pro,0183,lit:machine_lit,ba,machine_lit-01,lit-11,X,machine_lit-01,machine,"Its restrained prose creates a vivid, atmospheric scene while letting silence and precise detail carry the emotional tension."
+haiku-4.5,0183,lit:machine_lit,ba,machine_lit-01,lit-11,X,machine_lit-01,machine,crafted sensory writing at a train station far surpasses plot-summary exposition.
+opus,0183,lit:machine_lit,ba,machine_lit-01,lit-11,X,machine_lit-01,machine,X is fully realized scene-making; Y is expository summary about characters we cannot see.
+deepseek-v4-flash,0184,lit:machine_lit,ab,lit-02,machine_lit-06,X,lit-02,human,"The passage uses dialect and lively dialogue to create character, while Y’s quieter, more introspective prose achieves greater emotional depth and literary precision."
+gpt-5.6-luna,0184,lit:machine_lit,ab,lit-02,machine_lit-06,Y,machine_lit-06,machine,"It conveys quiet emotional conflict through precise, resonant details and controlled prose."
+gpt-5.6-luna-pro,0184,lit:machine_lit,ab,lit-02,machine_lit-06,Y,machine_lit-06,machine,Its precise physical details and understated emotional conflict create a deeply affecting portrait of loss and self-erasure.
+haiku-4.5,0184,lit:machine_lit,ab,lit-02,machine_lit-06,Y,machine_lit-06,machine,It renders loss with heart-breaking specificity where X offers only generic narrative.
+opus,0184,lit:machine_lit,ab,lit-02,machine_lit-06,Y,machine_lit-06,machine,Y turns sorting a dead wife's things into quiet devastation; X is a passage of dialect business.
+deepseek-v4-flash,0184,lit:machine_lit,ba,machine_lit-06,lit-02,X,machine_lit-06,machine,"Y uses excessive dialect and clumsy repetition, while X achieves quiet emotional precision through restrained imagery and deliberate pacing."
+gpt-5.6-luna,0184,lit:machine_lit,ba,machine_lit-06,lit-02,X,machine_lit-06,machine,Its restrained imagery and emotional precision make grief feel immediate without explaining it.
+gpt-5.6-luna-pro,0184,lit:machine_lit,ba,machine_lit-06,lit-02,X,machine_lit-06,machine,"Its precise, emotionally resonant details turn an ordinary act of sorting possessions into a quietly devastating portrait of grief."
+haiku-4.5,0184,lit:machine_lit,ba,machine_lit-06,lit-02,X,machine_lit-06,machine,the saucer passage's devastating precision beats conventional nineteenth-century narrative.
+opus,0184,lit:machine_lit,ba,machine_lit-06,lit-02,X,machine_lit-06,machine,Quiet accumulation of detail delivers genuine emotional weight; Y is amusing but slight dialect business.
+deepseek-v4-flash,0185,lit:machine_lit,ab,lit-03,machine_lit-02,Y,machine_lit-02,machine,It uses precise sensory details and psychological nuance to convey a moment of tension and self-deception.
+gpt-5.6-luna,0185,lit:machine_lit,ab,lit-03,machine_lit-02,Y,machine_lit-02,machine,"Its precise imagery and restrained psychological tension create a more vivid, layered emotional moment."
+gpt-5.6-luna-pro,0185,lit:machine_lit,ab,lit-03,machine_lit-02,Y,machine_lit-02,machine,"Its controlled imagery and understated psychological tension create a more vivid, nuanced scene."
+haiku-4.5,0185,lit:machine_lit,ab,lit-03,machine_lit-02,Y,machine_lit-02,machine,Its subtle exploration of power dynamics and self-deception surpasses Victorian melodrama.
+opus,0185,lit:machine_lit,ab,lit-03,machine_lit-02,Y,machine_lit-02,machine,Y dramatizes self-betrayal in real time; X tells us what to think and interrupts itself with authorial throat-clearing.
+deepseek-v4-flash,0185,lit:machine_lit,ba,machine_lit-02,lit-03,X,machine_lit-02,machine,"It achieves greater depth and precision through restrained, interior detail."
+gpt-5.6-luna,0185,lit:machine_lit,ba,machine_lit-02,lit-03,X,machine_lit-02,machine,"Its precise physical detail and restrained psychological tension create a vivid, layered emotional scene."
+gpt-5.6-luna-pro,0185,lit:machine_lit,ba,machine_lit-02,lit-03,X,machine_lit-02,machine,"Its precise imagery and understated psychological tension create a vivid, layered encounter."
+haiku-4.5,0185,lit:machine_lit,ba,machine_lit-02,lit-03,X,machine_lit-02,machine,psychological acuity in the lawn confrontation surpasses conventional period melodrama.
+opus,0185,lit:machine_lit,ba,machine_lit-02,lit-03,X,machine_lit-02,machine,Menace built entirely from measured distance and self-knowledge; Y is chatty melodrama with authorial nudging.
+deepseek-v4-flash,0186,lit:machine_lit,ab,lit-13,machine_lit-05,Y,machine_lit-05,machine,"The second passage uses precise, evocative imagery and metaphor to create a quiet, resonant interiority, while the first is dialogue-driven and expository."
+gpt-5.6-luna,0186,lit:machine_lit,ab,lit-13,machine_lit-05,Y,machine_lit-05,machine,"Its precise imagery and restrained emotional insight create a more memorable, layered portrait of an ordinary life."
+gpt-5.6-luna-pro,0186,lit:machine_lit,ab,lit-13,machine_lit-05,Y,machine_lit-05,machine,"Its precise imagery and accumulating arithmetic create a poignant, psychologically layered portrait of resignation."
+haiku-4.5,0186,lit:machine_lit,ab,lit-13,machine_lit-05,Y,machine_lit-05,machine,"The passage transforms mundane reality into something profound through precise language, whereas the dialogue is merely functional plot exposition."
+opus,0186,lit:machine_lit,ab,lit-13,machine_lit-05,Y,machine_lit-05,machine,Y turns a man's nightly arithmetic into character and fate; X is serviceable expository dialogue.
+deepseek-v4-flash,0186,lit:machine_lit,ba,machine_lit-05,lit-13,X,machine_lit-05,machine,"The first passage uses precise, evocative imagery and rhythm to create a resonant inner life, while the second is straightforward genre dialogue."
+gpt-5.6-luna,0186,lit:machine_lit,ba,machine_lit-05,lit-13,X,machine_lit-05,machine,Its controlled imagery and understated emotional depth make the character’s financial anxiety feel quietly profound.
+gpt-5.6-luna-pro,0186,lit:machine_lit,ba,machine_lit-05,lit-13,X,machine_lit-05,machine,"Its restrained imagery and accumulating arithmetic create a poignant, psychologically resonant portrait of resignation."
+haiku-4.5,0186,lit:machine_lit,ba,machine_lit-05,lit-13,X,machine_lit-05,machine,Meditative sophistication about internal life and financial hardship exceeds functional detective banter.
+opus,0186,lit:machine_lit,ba,machine_lit-05,lit-13,X,machine_lit-05,machine,The arithmetic-as-company conceit and the rope simile do genuine psychological work; Y is functional exposition.
+deepseek-v4-flash,0187,lit:machine_lit,ab,lit-01,machine_lit-03,Y,machine_lit-03,machine,"The passage uses vivid sensory details and a meditative tone to evoke a profound stillness, transforming a simple scene into a reflection on the nature of the sea."
+gpt-5.6-luna,0187,lit:machine_lit,ab,lit-01,machine_lit-03,Y,machine_lit-03,machine,Its vivid sensory detail and striking metaphor transform a becalmed sea into a richly reflective scene.
+gpt-5.6-luna-pro,0187,lit:machine_lit,ab,lit-01,machine_lit-03,Y,machine_lit-03,machine,"Its vivid sensory detail and striking metaphor create a more immediate, distinctive atmosphere."
+haiku-4.5,0187,lit:machine_lit,ab,lit-01,machine_lit-03,Y,machine_lit-03,machine,Its precise sensory observations and surprising metaphors create genuine literary power.
+opus,0187,lit:machine_lit,ab,lit-01,machine_lit-03,Y,machine_lit-03,machine,Y turns a becalmed sea into a genuine perception with rhythm and voice; X is serviceable backstory exposition.
+deepseek-v4-flash,0187,lit:machine_lit,ba,machine_lit-03,lit-01,X,machine_lit-03,machine,"X uses more vivid, original imagery and a contemplative tone that deepens the meaning."
+gpt-5.6-luna,0187,lit:machine_lit,ba,machine_lit-03,lit-01,X,machine_lit-03,machine,"Its precise imagery, controlled rhythm, and quietly revelatory metaphor create a more vivid and resonant experience."
+gpt-5.6-luna-pro,0187,lit:machine_lit,ba,machine_lit-03,lit-01,X,machine_lit-03,machine,"Its vivid, precise imagery and meditative voice transform a still sea into a resonant revelation."
+haiku-4.5,0187,lit:machine_lit,ba,machine_lit-03,lit-01,X,machine_lit-03,machine,the patient rings on still water and the observation about hidden patience beats conventional narrative exposition.
+opus,0187,lit:machine_lit,ba,machine_lit-03,lit-01,X,machine_lit-03,machine,"The becalmed sea becomes a real perception, ending on an earned reversal; Y is backstory summary."
+deepseek-v4-flash,0188,lit:machine_lit,ab,lit-29,machine_lit-07,Y,machine_lit-07,machine,"Y uses subtle social cues and restraint to convey tension, while X relies on melodrama and explicit emotion."
+gpt-5.6-luna,0188,lit:machine_lit,ab,lit-29,machine_lit-07,Y,machine_lit-07,machine,"Its restrained, precise social tension and subtle shifts in perception create a more layered and compelling emotional scene."
+gpt-5.6-luna-pro,0188,lit:machine_lit,ab,lit-29,machine_lit-07,Y,machine_lit-07,machine,"Its precise social observation, controlled atmosphere, and understated emotional revelation create greater psychological depth."
+haiku-4.5,0188,lit:machine_lit,ab,lit-29,machine_lit-07,Y,machine_lit-07,machine,It renders social tension and ambivalence with far greater subtlety and psychological accuracy.
+opus,0188,lit:machine_lit,ab,lit-29,machine_lit-07,Y,machine_lit-07,machine,Y renders social exclusion with precise restraint where X reaches for melodramatic yearning and an italicized swoon.
+deepseek-v4-flash,0188,lit:machine_lit,ba,machine_lit-07,lit-29,X,machine_lit-07,machine,"X displays more nuanced, understated craftsmanship in its social observation and use of tone."
+gpt-5.6-luna,0188,lit:machine_lit,ba,machine_lit-07,lit-29,X,machine_lit-07,machine,"Its restrained, precise observation conveys social cruelty and emotional fallout with greater subtlety and originality."
+gpt-5.6-luna-pro,0188,lit:machine_lit,ba,machine_lit-07,lit-29,X,machine_lit-07,machine,"Its restrained, precise depiction of social exclusion conveys more emotional complexity through implication than Y’s overt melodrama."
+haiku-4.5,0188,lit:machine_lit,ba,machine_lit-07,lit-29,X,machine_lit-07,machine,psychological subtlety and restraint surpass melodramatic purple prose.
+opus,0188,lit:machine_lit,ba,machine_lit-07,lit-29,X,machine_lit-07,machine,"X registers social humiliation with exact, unshowy precision; Y reaches straight for melodrama."
+deepseek-v4-flash,0189,lit:machine_lit,ab,lit-00,machine_lit-04,Y,machine_lit-04,machine,The second passage uses sensory details and emotional restraint to create a more layered and resonant portrait of a child's internal experience.
+gpt-5.6-luna,0189,lit:machine_lit,ab,lit-00,machine_lit-04,Y,machine_lit-04,machine,Its precise sensory detail and understated emotional tension create a more intimate and psychologically resonant scene.
+gpt-5.6-luna-pro,0189,lit:machine_lit,ab,lit-00,machine_lit-04,Y,machine_lit-04,machine,Its precise sensory details and restrained psychological tension create a more intimate and resonant emotional scene.
+haiku-4.5,0189,lit:machine_lit,ab,lit-00,machine_lit-04,Y,machine_lit-04,machine,the subtly observed interior moment of a child listening is far more literary than the action-driven narrative summary.
+opus,0189,lit:machine_lit,ab,lit-00,machine_lit-04,Y,machine_lit-04,machine,X is cluttered offstage action with dated shorthand for characters; Y is patient and psychologically exact.
+deepseek-v4-flash,0189,lit:machine_lit,ba,machine_lit-04,lit-00,X,machine_lit-04,machine,"X uses more evocative, layered imagery and explores interior emotional complexity with restraint and psychological depth."
+gpt-5.6-luna,0189,lit:machine_lit,ba,machine_lit-04,lit-00,X,machine_lit-04,machine,"Its precise sensory detail and restrained psychological tension create a more vivid, layered emotional experience."
+gpt-5.6-luna-pro,0189,lit:machine_lit,ba,machine_lit-04,lit-00,X,machine_lit-04,machine,"Its precise sensory detail and restrained psychological tension create a more vivid, emotionally complex scene."
+haiku-4.5,0189,lit:machine_lit,ba,machine_lit-04,lit-00,X,machine_lit-04,machine,subtle psychological portraiture of a child's awareness is more literarily accomplished than action narration.
+opus,0189,lit:machine_lit,ba,machine_lit-04,lit-00,X,machine_lit-04,machine,X renders a child's moral calculation with fine detail; Y is inventory-style action heard from a distance.
+deepseek-v4-flash,0190,lit:machine_lit,ab,lit-08,machine_lit-00,Y,machine_lit-00,machine,"Y uses vivid, specific imagery and metaphor to create a resonant emotional experience, while X relies on abstract moralizing."
+gpt-5.6-luna,0190,lit:machine_lit,ab,lit-08,machine_lit-00,Y,machine_lit-00,machine,"Its precise, evocative imagery transforms a familiar house into a powerful meditation on memory, absence, and growing beyond the past."
+gpt-5.6-luna-pro,0190,lit:machine_lit,ab,lit-08,machine_lit-00,Y,machine_lit-00,machine,"Its precise sensory details and sustained metaphor render memory, estrangement, and change with greater vividness and emotional depth."
+haiku-4.5,0190,lit:machine_lit,ab,lit-08,machine_lit-00,Y,machine_lit-00,machine,Its imaginative language transcends the moralizing tone of didactic prose.
+opus,0190,lit:machine_lit,ab,lit-08,machine_lit-00,Y,machine_lit-00,machine,X is polemic insisting on a distinction rather than showing it; Y dramatizes its meaning.
+deepseek-v4-flash,0190,lit:machine_lit,ba,machine_lit-00,lit-08,X,machine_lit-00,machine,"The prose is more evocative and layered, using sensory detail and metaphor to create a resonant emotional experience rather than delivering a direct argument."
+gpt-5.6-luna,0190,lit:machine_lit,ba,machine_lit-00,lit-08,X,machine_lit-00,machine,"X uses vivid, precise imagery and a sustained metaphor to render memory and estrangement with greater subtlety and emotional resonance."
+gpt-5.6-luna-pro,0190,lit:machine_lit,ba,machine_lit-00,lit-08,X,machine_lit-00,machine,"It uses vivid, emotionally resonant imagery and a sustained metaphor to transform an ordinary return into a subtle meditation on memory and change."
+haiku-4.5,0190,lit:machine_lit,ba,machine_lit-00,lit-08,X,machine_lit-00,machine,exquisite control of the homecoming metaphor and sensory detail demolishes didactic moral philosophy.
+opus,0190,lit:machine_lit,ba,machine_lit-00,lit-08,X,machine_lit-00,machine,The shrinking house is sustained precisely and turned at the end; Y is abstract sermonizing.
+deepseek-v4-flash,0191,lit:machine_lit,ab,lit-01,machine_lit-01,X,lit-01,human,"The second passage uses precise, sensory details and a restrained, atmospheric tone to create a compelling sense of place and mood, while the first relies more on exposition."
+gpt-5.6-luna,0191,lit:machine_lit,ab,lit-01,machine_lit-01,Y,machine_lit-01,machine,"Its restrained imagery and quiet tension create a vivid, atmospheric scene with more subtle emotional depth."
+gpt-5.6-luna-pro,0191,lit:machine_lit,ab,lit-01,machine_lit-01,Y,machine_lit-01,machine,"Its restrained, atmospheric details and quiet tension create a more vivid and affecting scene."
+haiku-4.5,0191,lit:machine_lit,ab,lit-01,machine_lit-01,Y,machine_lit-01,machine,The rain station passage captures emotional depth through spare precision and subtle imagery rather than the overwrought Victorian narrative.
+opus,0191,lit:machine_lit,ab,lit-01,machine_lit-01,Y,machine_lit-01,machine,"Y builds a whole mood from concrete detail and restraint, while X is mostly summarized backstory."
+deepseek-v4-flash,0191,lit:machine_lit,ba,machine_lit-01,lit-01,X,machine_lit-01,machine,"The first passage creates a more vivid and atmospheric scene with precise, evocative details and a restrained emotional weight."
+gpt-5.6-luna,0191,lit:machine_lit,ba,machine_lit-01,lit-01,X,machine_lit-01,machine,"Its restrained prose, vivid atmosphere, and quiet tension convey more through implication than exposition."
+gpt-5.6-luna-pro,0191,lit:machine_lit,ba,machine_lit-01,lit-01,X,machine_lit-01,machine,"Its restrained, atmospheric prose creates tension and meaning through precise images and silence."
+haiku-4.5,0191,lit:machine_lit,ba,machine_lit-01,lit-01,X,machine_lit-01,machine,precise sensory detail and restrained emotional depth create a memorable scene of waiting.
+opus,0191,lit:machine_lit,ba,machine_lit-01,lit-01,X,machine_lit-01,machine,"The station scene builds atmosphere and unspoken tension through concrete detail, while Y is flat backstory summary."
+deepseek-v4-flash,0192,lit:machine_lit,ab,lit-28,machine_lit-06,Y,machine_lit-06,machine,Y achieves a deeper emotional resonance through its precise
+gpt-5.6-luna,0192,lit:machine_lit,ab,lit-28,machine_lit-06,Y,machine_lit-06,machine,"Its precise physical details and quietly devastating emotional subtext create a more complex, resonant portrait of grief and letting go."
+gpt-5.6-luna-pro,0192,lit:machine_lit,ab,lit-28,machine_lit-06,Y,machine_lit-06,machine,Its precise physical details and restrained emotional tension make grief and relinquishment quietly palpable.
+haiku-4.5,0192,lit:machine_lit,ab,lit-28,machine_lit-06,Y,machine_lit-06,machine,"Its precise, emotionally complex rendering of grief surpasses the overwrought adventure prose."
+opus,0192,lit:machine_lit,ab,lit-28,machine_lit-06,X,lit-28,human,"The Arctic passage is cold, exact, and structurally patient, tracking a whole day's light in a few sentences."
+deepseek-v4-flash,0192,lit:machine_lit,ba,machine_lit-06,lit-28,X,machine_lit-06,machine,The passage achieves deeper emotional complexity through its subtle handling of grief and memory.
+gpt-5.6-luna,0192,lit:machine_lit,ba,machine_lit-06,lit-28,X,machine_lit-06,machine,"Its precise, emotionally charged details make grief and relinquishment resonate without stating them outright."
+gpt-5.6-luna-pro,0192,lit:machine_lit,ba,machine_lit-06,lit-28,X,machine_lit-06,machine,"Its precise, understated details make grief and self-erasure vividly present without explaining them."
+haiku-4.5,0192,lit:machine_lit,ba,machine_lit-06,lit-28,X,machine_lit-06,machine,The psychological precision and heartbreaking understatement of sorting the dead woman's belongings far exceeds the adventure narrative's conventional atmosphere.
+opus,0192,lit:machine_lit,ba,machine_lit-06,lit-28,X,machine_lit-06,machine,X makes grief legible through the handling of objects; Y is capable but merely scenic.
+deepseek-v4-flash,0193,lit:machine_lit,ab,lit-21,machine_lit-02,X,lit-21,human,"The passage's historical specificity and vivid architectural imagery create a richer, more distinctive sense of character and place."
+gpt-5.6-luna,0193,lit:machine_lit,ab,lit-21,machine_lit-02,Y,machine_lit-02,machine,"Its precise physical details and restrained subtext create a vivid, psychologically charged encounter."
+gpt-5.6-luna-pro,0193,lit:machine_lit,ab,lit-21,machine_lit-02,Y,machine_lit-02,machine,"Its precise physical details, withheld conflict, and subtle psychological tension create a more vivid and layered scene."
+haiku-4.5,0193,lit:machine_lit,ab,lit-21,machine_lit-02,Y,machine_lit-02,machine,psychological depth and narrative tension in a charged waiting scene exceed expository historical narrative.
+opus,0193,lit:machine_lit,ab,lit-21,machine_lit-02,Y,machine_lit-02,machine,"The garden approach builds real psychological pressure, while X is capable but expository and stalls on a repeated sentence."
+deepseek-v4-flash,0193,lit:machine_lit,ba,machine_lit-02,lit-21,X,machine_lit-02,machine,"The passage achieves greater literary quality through its precise, economical rendering of psychological tension and unspoken power dynamics."
+gpt-5.6-luna,0193,lit:machine_lit,ba,machine_lit-02,lit-21,X,machine_lit-02,machine,"It creates a tense, psychologically nuanced encounter through precise imagery and controlled, suggestive prose."
+gpt-5.6-luna-pro,0193,lit:machine_lit,ba,machine_lit-02,lit-21,X,machine_lit-02,machine,"Its precise imagery and understated psychological tension create a richer, more suggestive scene."
+haiku-4.5,0193,lit:machine_lit,ba,machine_lit-02,lit-21,X,machine_lit-02,machine,Psychological complexity of emotional ambivalence outweighs historical narrative explanation.
+opus,0193,lit:machine_lit,ba,machine_lit-02,lit-21,X,machine_lit-02,machine,The approach across thirty feet of lawn builds dread and self-knowledge; Y is serviceable historical exposition with repeated phrasing.
+deepseek-v4-flash,0194,lit:machine_lit,ab,lit-10,machine_lit-05,Y,machine_lit-05,machine,"The second passage achieves deeper emotional resonance through its precise, understated accumulation of everyday detail and the quiet, resonant metaphor of arithmetic as a kind of companionship in resignation."
+gpt-5.6-luna,0194,lit:machine_lit,ab,lit-10,machine_lit-05,Y,machine_lit-05,machine,Its precise imagery and quietly accumulating emotional insight give the passage greater depth and resonance.
+gpt-5.6-luna-pro,0194,lit:machine_lit,ab,lit-10,machine_lit-05,Y,machine_lit-05,machine,"Its restrained imagery and accumulating inner arithmetic create a more nuanced, emotionally resonant portrait of resignation."
+haiku-4.5,0194,lit:machine_lit,ab,lit-10,machine_lit-05,Y,machine_lit-05,machine,Its metaphorically rich meditation on poverty and habit surpasses the melodramatic characterization.
+opus,0194,lit:machine_lit,ab,lit-10,machine_lit-05,X,lit-10,human,The loaded-rifle stare and the unmunched something in Durdles's cheek are stranger and more exact than Y's tidy accountancy metaphors.
+deepseek-v4-flash,0194,lit:machine_lit,ba,machine_lit-05,lit-10,X,machine_lit-05,machine,"The passage about the man walking home has a quieter, more sustained interiority and rhythm that deepens emotional resonance, while Y's theatrical menace feels comparatively flat and external."
+gpt-5.6-luna,0194,lit:machine_lit,ba,machine_lit-05,lit-10,Y,lit-10,human,Its vivid physical detail and menacing dramatic tension create a more distinctive and memorable scene.
+gpt-5.6-luna-pro,0194,lit:machine_lit,ba,machine_lit-05,lit-10,X,machine_lit-05,machine,"Its restrained imagery and accumulating arithmetic create a more nuanced, emotionally resonant portrait of hardship."
+haiku-4.5,0194,lit:machine_lit,ba,machine_lit-05,lit-10,X,machine_lit-05,machine,Philosophical depth and emotional sophistication of financial meditation surpass atmospheric Victorian suspense.
+opus,0194,lit:machine_lit,ba,machine_lit-05,lit-10,Y,lit-10,human,The rifle-sight stare and the 'unmunched something in his cheek' are sharper and stranger than X's smooth melancholy.
+deepseek-v4-flash,0195,lit:machine_lit,ab,lit-00,machine_lit-03,Y,machine_lit-03,machine,"Y's imagery is more evocative and its language more lyrical, creating a deeper atmosphere."
+gpt-5.6-luna,0195,lit:machine_lit,ab,lit-00,machine_lit-03,Y,machine_lit-03,machine,"Its vivid, precise imagery turns an unnervingly motionless sea into a powerful meditation on perception and patience."
+gpt-5.6-luna-pro,0195,lit:machine_lit,ab,lit-00,machine_lit-03,Y,machine_lit-03,machine,"Its vivid imagery, controlled rhythm, and reflective voice transform a still seascape into a resonant meditation."
+haiku-4.5,0195,lit:machine_lit,ab,lit-00,machine_lit-03,Y,machine_lit-03,machine,Its metaphorical precision and meditative quality surpass action-plot description.
+opus,0195,lit:machine_lit,ab,lit-00,machine_lit-03,Y,machine_lit-03,machine,X is busy plot heard secondhand and stumbles in its diction; Y holds one still moment and finds something in it.
+deepseek-v4-flash,0195,lit:machine_lit,ba,machine_lit-03,lit-00,X,machine_lit-03,machine,"The passage is more evocative and painterly in its stillness, using precise sensory details to create a profound meditation on patience and the hidden nature of the sea."
+gpt-5.6-luna,0195,lit:machine_lit,ba,machine_lit-03,lit-00,X,machine_lit-03,machine,"Its precise sensory detail and quietly revelatory metaphor create a vivid, resonant atmosphere."
+gpt-5.6-luna-pro,0195,lit:machine_lit,ba,machine_lit-03,lit-00,X,machine_lit-03,machine,"Its vivid sensory detail and sustained metaphor create a more evocative, psychologically resonant scene."
+haiku-4.5,0195,lit:machine_lit,ba,machine_lit-03,lit-00,X,machine_lit-03,machine,"The prose attends minutely to language and observation, transforming a still sea into metaphor, while Y rushes through action."
+opus,0195,lit:machine_lit,ba,machine_lit-03,lit-00,X,machine_lit-03,machine,X sustains one physical situation into genuine revelation; Y is competent plot-noise reported at a remove.
+deepseek-v4-flash,0196,lit:machine_lit,ab,lit-05,machine_lit-07,Y,machine_lit-07,machine,"Y's prose is more nuanced and evocative, using quiet details and timing to convey social tension with greater subtlety and depth."
+gpt-5.6-luna,0196,lit:machine_lit,ab,lit-05,machine_lit-07,Y,machine_lit-07,machine,"Its precise, atmospheric prose renders social tension and concealed judgment with greater subtlety and psychological depth."
+gpt-5.6-luna-pro,0196,lit:machine_lit,ab,lit-05,machine_lit-07,Y,machine_lit-07,machine,Its precise sensory detail and understated social tension create a more nuanced emotional atmosphere.
+haiku-4.5,0196,lit:machine_lit,ab,lit-05,machine_lit-07,Y,machine_lit-07,machine,Its complex psychological observation of social tension far exceeds sentimental period charm.
+opus,0196,lit:machine_lit,ab,lit-05,machine_lit-07,Y,machine_lit-07,machine,Y is controlled and unsentimental where X is a rush of exclamation and staged tableau.
+deepseek-v4-flash,0196,lit:machine_lit,ba,machine_lit-07,lit-05,X,machine_lit-07,machine,"X's precise, understated prose reveals social tension and emotional insight more effectively than Y's conventional narrative."
+gpt-5.6-luna,0196,lit:machine_lit,ba,machine_lit-07,lit-05,X,machine_lit-07,machine,"Its precise sensory detail and understated social tension create a more layered, emotionally resonant scene."
+gpt-5.6-luna-pro,0196,lit:machine_lit,ba,machine_lit-07,lit-05,X,machine_lit-07,machine,"Its precise, atmospheric details convey social unease and concealed hurt with greater subtlety and psychological depth."
+haiku-4.5,0196,lit:machine_lit,ba,machine_lit-07,lit-05,X,machine_lit-07,machine,It renders emotional truth through precise observation and restraint rather than stating it directly.
+opus,0196,lit:machine_lit,ba,machine_lit-07,lit-05,X,machine_lit-07,machine,"X renders social exclusion through precise, restrained observation, while Y is breezy and sentimental."

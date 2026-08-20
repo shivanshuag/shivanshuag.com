@@ -1,0 +1,1727 @@
+{
+ "README": "See README.md. A tie means the two presentation orders disagreed, which is position bias, not a split decision.",
+ "judges": {
+  "opus": {
+   "judgments": 120,
+   "pairs": 60,
+   "decided": 48,
+   "ties_order_disagreed": 12,
+   "machine_wins": 42,
+   "machine_win_rate_decided": 0.875
+  },
+  "haiku-4.5": {
+   "judgments": 120,
+   "pairs": 60,
+   "decided": 59,
+   "ties_order_disagreed": 1,
+   "machine_wins": 58,
+   "machine_win_rate_decided": 0.9831
+  },
+  "deepseek-v4-flash": {
+   "judgments": 120,
+   "pairs": 60,
+   "decided": 36,
+   "ties_order_disagreed": 24,
+   "machine_wins": 34,
+   "machine_win_rate_decided": 0.9444
+  },
+  "gpt-5.6-luna": {
+   "judgments": 120,
+   "pairs": 60,
+   "decided": 56,
+   "ties_order_disagreed": 4,
+   "machine_wins": 54,
+   "machine_win_rate_decided": 0.9643
+  },
+  "gpt-5.6-luna-pro": {
+   "judgments": 120,
+   "pairs": 60,
+   "decided": 57,
+   "ties_order_disagreed": 3,
+   "machine_wins": 56,
+   "machine_win_rate_decided": 0.9825
+  }
+ },
+ "pairs": [
+  {
+   "pair_id": "0000",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-05",
+   "human_id": "verse-06",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0001",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-03",
+   "human_id": "verse-05",
+   "verdicts": {
+    "opus": {
+     "winner_id": "verse-05",
+     "winner_kind": "human"
+    },
+    "haiku-4.5": {
+     "winner_id": "verse-05",
+     "winner_kind": "human"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "verse-05",
+     "winner_kind": "human"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "verse-05",
+     "winner_kind": "human"
+    }
+   }
+  },
+  {
+   "pair_id": "0002",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-00",
+   "human_id": "verse-04",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "verse-04",
+     "winner_kind": "human"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": null,
+     "winner_kind": null
+    }
+   }
+  },
+  {
+   "pair_id": "0003",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-06",
+   "human_id": "verse-02",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0004",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-01",
+   "human_id": "verse-01",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0005",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-04",
+   "human_id": "verse-06",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0006",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-02",
+   "human_id": "verse-04",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0007",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-05",
+   "human_id": "verse-04",
+   "verdicts": {
+    "opus": {
+     "winner_id": "verse-04",
+     "winner_kind": "human"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0008",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-03",
+   "human_id": "verse-04",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0009",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-00",
+   "human_id": "verse-03",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0010",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-06",
+   "human_id": "verse-01",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0011",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-01",
+   "human_id": "verse-06",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0012",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-04",
+   "human_id": "verse-03",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0013",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-02",
+   "human_id": "verse-00",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0014",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-05",
+   "human_id": "verse-02",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": null,
+     "winner_kind": null
+    }
+   }
+  },
+  {
+   "pair_id": "0015",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-03",
+   "human_id": "verse-06",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0016",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-00",
+   "human_id": "verse-00",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0017",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-06",
+   "human_id": "verse-06",
+   "verdicts": {
+    "opus": {
+     "winner_id": "verse-06",
+     "winner_kind": "human"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0018",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-01",
+   "human_id": "verse-03",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0019",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-04",
+   "human_id": "verse-04",
+   "verdicts": {
+    "opus": {
+     "winner_id": "verse-04",
+     "winner_kind": "human"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "verse-04",
+     "winner_kind": "human"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0020",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-02",
+   "human_id": "verse-03",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0021",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-05",
+   "human_id": "verse-01",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-05",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0022",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-03",
+   "human_id": "verse-01",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-03",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0023",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-00",
+   "human_id": "verse-01",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-00",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0024",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-06",
+   "human_id": "verse-03",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0025",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-01",
+   "human_id": "verse-02",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-01",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0026",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-04",
+   "human_id": "verse-00",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0027",
+   "stratum": "verse:machine_verse",
+   "machine_id": "machine_verse-02",
+   "human_id": "verse-02",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_verse-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0165",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-04",
+   "human_id": "lit-19",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0166",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-00",
+   "human_id": "lit-12",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0167",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-01",
+   "human_id": "lit-02",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0168",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-06",
+   "human_id": "lit-13",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0169",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-02",
+   "human_id": "lit-14",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0170",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-05",
+   "human_id": "lit-26",
+   "verdicts": {
+    "opus": {
+     "winner_id": "lit-26",
+     "winner_kind": "human"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0171",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-03",
+   "human_id": "lit-20",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0172",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-07",
+   "human_id": "lit-23",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0173",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-04",
+   "human_id": "lit-27",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0174",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-00",
+   "human_id": "lit-29",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0175",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-01",
+   "human_id": "lit-06",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "lit-06",
+     "winner_kind": "human"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": null,
+     "winner_kind": null
+    }
+   }
+  },
+  {
+   "pair_id": "0176",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-06",
+   "human_id": "lit-17",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0177",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-02",
+   "human_id": "lit-00",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0178",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-05",
+   "human_id": "lit-11",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0179",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-03",
+   "human_id": "lit-24",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0180",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-07",
+   "human_id": "lit-25",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0181",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-04",
+   "human_id": "lit-26",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0182",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-00",
+   "human_id": "lit-25",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0183",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-01",
+   "human_id": "lit-11",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0184",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-06",
+   "human_id": "lit-02",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0185",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-02",
+   "human_id": "lit-03",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0186",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-05",
+   "human_id": "lit-13",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0187",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-03",
+   "human_id": "lit-01",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0188",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-07",
+   "human_id": "lit-29",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0189",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-04",
+   "human_id": "lit-00",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-04",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0190",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-00",
+   "human_id": "lit-08",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-00",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0191",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-01",
+   "human_id": "lit-01",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-01",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0192",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-06",
+   "human_id": "lit-28",
+   "verdicts": {
+    "opus": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-06",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0193",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-02",
+   "human_id": "lit-21",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-02",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0194",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-05",
+   "human_id": "lit-10",
+   "verdicts": {
+    "opus": {
+     "winner_id": "lit-10",
+     "winner_kind": "human"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": null,
+     "winner_kind": null
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-05",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0195",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-03",
+   "human_id": "lit-00",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-03",
+     "winner_kind": "machine"
+    }
+   }
+  },
+  {
+   "pair_id": "0196",
+   "stratum": "lit:machine_lit",
+   "machine_id": "machine_lit-07",
+   "human_id": "lit-05",
+   "verdicts": {
+    "opus": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "haiku-4.5": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "deepseek-v4-flash": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    },
+    "gpt-5.6-luna-pro": {
+     "winner_id": "machine_lit-07",
+     "winner_kind": "machine"
+    }
+   }
+  }
+ ]
+}
